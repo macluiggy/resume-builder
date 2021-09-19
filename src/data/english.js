@@ -18,7 +18,7 @@ const data = {
   /**
    * Full name
    */
-  fullName: 'Maciek Sitkowski',
+  fullName: 'Luiggy Macias',
 
   /**
    * Summary - short "about me" paragraph
@@ -26,9 +26,7 @@ const data = {
   summary: {
     title: 'Summary',
     text: `
-      Front-end developer that has 1 year of experience developing web 
-      applications and building websites. Broadens his knowledge by actively 
-      contributing to Open Source projects.`,
+      Frontend developer who has 1+ year of programming experience.`,
   },
 
   /**
@@ -38,25 +36,25 @@ const data = {
     title: 'Contact',
     list: [
       {
-        text: 'macieksitkowski.com',
-        url: 'https://macieksitkowski.com',
+        text: 'macluiggy.github.io',
+        url: 'https://macluiggy.github.io',
         icon: <FaGlobe />,
       },
       {
-        text: 'github.com/sitek94',
-        url: 'https://github.com/sitek94',
+        text: 'github.com/macluiggy',
+        url: 'https://github.com/macluiggy',
         icon: <FaGithub />,
       },
       {
-        text: 'msitkowski94@gmail.com',
+        text: 'ferrinluiggy@gmail.com',
         icon: <FaEnvelope />,
       },
       {
-        text: '+00 123 456 789',
+        text: '+593 985 518 903',
         icon: <FaPhoneAlt />,
       },
       {
-        text: 'Warsaw, Poland',
+        text: 'Portoviejo, Ecuador',
         icon: <FaMapMarkerAlt />,
       },
     ],
@@ -69,7 +67,7 @@ const data = {
     title: 'Key skills',
     list: [
       { text: 'React, Redux, JSX' },
-      { text: 'JavaScript, D3.js' },
+      { text: 'JavaScript' },
       { text: 'Responsive Web Design' },
       { text: 'HTML5, CSS3' },
     ],
@@ -81,10 +79,10 @@ const data = {
   additionalSkills: {
     title: 'Additional skills',
     list: [
-      { text: 'Node.js, Webpack' },
-      { text: 'OAuth, Firebase' },
+      { text: 'Node.js' },
+      /*{ text: 'OAuth, Firebase' }*/,
       { text: 'GitHub, Git' },
-      { text: 'REST, GraphQL' },
+      /*{ text: 'REST, GraphQL,' }*/,
       { text: 'Sass, CSS-in-JS' },
     ],
   },
@@ -95,9 +93,8 @@ const data = {
   languages: {
     title: 'Languages',
     list: [
-      { text: 'Polish - Native' },
       { text: 'English - Fluent' },
-      { text: 'Spanish - Communicative' },
+      { text: 'Spanish - Native' },
     ],
   },
 
@@ -107,7 +104,6 @@ const data = {
   interests: {
     title: 'Interests',
     list: [
-      { text: 'Playing chess', icon: <FaChessKnight /> },
       { text: 'Learning new things', icon: <FaReact /> },
       { text: 'Building habits', icon: <FaRegCalendarCheck /> },
       { text: 'Reading', icon: <FaBook /> },
@@ -119,6 +115,48 @@ const data = {
     title: 'Projects',
     list: [
       {
+        name: 'Drum Machine App',
+        techList: [
+          'React',
+          'Redux',
+          'HTML',
+          'JavaScript',
+          'Sass'
+        ],
+        description: `
+          This application allows you to listen to some clips, you can switch between 
+          two drums, turn the drum on and off and raise and lower the volume of the 
+          drum.`,
+        url: 'https://drum-machine-free-code-camp.netlify.app/',
+      },
+      {
+        name: 'Room homepage',
+        techList: [
+          'React',
+          'React useEffect & useState',
+          'HTML',
+          'JavaScript',
+          'Sass'
+        ],
+        description: `
+          This homepage were helpful to test my layout skills. There's a slider that 
+          also were helpful to practice React Hooks`,
+        url: 'https://frontend-mentor-room-homepage.netlify.app/',
+      },
+      {
+        name: 'URL Shortening API',
+        techList: [
+          'HTML',
+          'CSS',
+          'JavaScript',
+          'shortcode API'
+        ],
+        description: `
+          This is a project where the user can shorten any valid link, this was made 
+          with the shortcode API`,
+        url: 'https://macluiggy.github.io/url-shortening-api-master-FM',
+      },
+      /*{
         name: 'Habit Tracker App',
         techList: [
           'React',
@@ -141,6 +179,14 @@ const data = {
           globe. It connects to various APIs to get data about selected country.`,
         url: 'https://sitek94.github.io/pocket-globe-app',
       },
+      {
+        name: 'Pocket Globe App',
+        techList: ['React', 'D3.js', 'TopoJSON', 'Material-UI'],
+        description: `
+          The app uses D3.js and React to create a highly interactive and responsive 
+          globe. It connects to various APIs to get data about selected country.`,
+        url: 'https://sitek94.github.io/pocket-globe-app',
+      },*/
     ],
   },
 
@@ -149,7 +195,7 @@ const data = {
    *
    * Acceptable date format: `YYYY-MM`
    */
-  workExperience: {
+  /*workExperience: {
     title: 'Work experience',
     list: [
       {
@@ -191,17 +237,17 @@ const data = {
           the road taught me how to quickly adapt to new environments.`,
       },
     ],
-  },
+  },*/
 
   /**
    * Certificates and courses
    */
   certificates: {
-    title: 'Certificates',
+    title: 'Education & Certificates',
     list: [
       {
-        name: 'CS50x: Introduction to Computer Science',
-        provider: 'Harvard University',
+        name: 'Improving my problem solving skills by doing katas in codewars.',
+        provider: ' Codewars',
       },
       {
         name: 'Responsive Web Design Certification',
@@ -209,10 +255,6 @@ const data = {
       },
       {
         name: 'Algorithms and Data Structures Certification',
-        provider: ' freeCodeCamp',
-      },
-      {
-        name: 'Data Visualization Certification',
         provider: ' freeCodeCamp',
       },
       {

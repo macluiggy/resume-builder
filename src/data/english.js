@@ -25,8 +25,7 @@ const data = {
    */
   summary: {
     title: 'Summary',
-    text: `
-      Frontend developer who has 1+ year of programming experience.`,
+    text: `Hello, my name is Luiggy. I'm a self-taught frontend developer with 1+ year of programming experience developing web applications and building websites. I primarly focus on writing clean, elegant and efficient code. I am proficient in HTML, CSS, JavaScript and React.`,
   },
 
   /**
@@ -93,7 +92,7 @@ const data = {
   languages: {
     title: 'Languages',
     list: [
-      { text: 'English - Fluent' },
+      { text: 'English - B2 Upper Intermediate' },
       { text: 'Spanish - Native' },
     ],
   },
@@ -155,6 +154,22 @@ const data = {
           This is a project where the user can shorten any valid link, this was made 
           with the shortcode API`,
         url: 'https://macluiggy.github.io/url-shortening-api-master-FM',
+      },
+      {
+        name: 'Insure Landing Page',
+        techList: [
+          'HTML',
+          'CSS',
+          'JavaScript',
+          'Responsive Web Design',
+          'Media queries',
+        ],
+        description: `
+          Product Landing Page built for fake Insure brand. This was useful for 
+          practicing responsive web design.
+
+`,
+        url: 'https://macluiggy.github.io/FM-insure-landing-page-master',
       },
       /*{
         name: 'Habit Tracker App',
@@ -248,18 +263,27 @@ const data = {
       {
         name: 'Improving my problem solving skills by doing katas in codewars.',
         provider: ' Codewars',
+        url: 'https://www.codewars.com/users/luiggy',
       },
       {
         name: 'Responsive Web Design Certification',
         provider: ' freeCodeCamp',
+        url: 'https://www.freecodecamp.org/certification/macluiggy/responsive-web-design',
       },
       {
         name: 'Algorithms and Data Structures Certification',
         provider: ' freeCodeCamp',
+        url: 'https://www.freecodecamp.org/certification/macluiggy/javascript-algorithms-and-data-structures',
       },
       {
         name: 'Front End Libraries Certification',
         provider: ' freeCodeCamp',
+        url: 'https://www.freecodecamp.org/certification/macluiggy/front-end-development-libraries',
+      },
+      {
+        name: 'EFSET English Certificate (B2 Upper Intermediate)',
+        provider: ' EF Standard English Test (EF SET)',
+        url: 'http://efset.org/cert/2yqHjs',
       },
     ],
   },
@@ -271,11 +295,11 @@ const data = {
     title: 'Education',
     list: [
       {
-        institution: 'Warsaw University of Technology',
-        description: 'Architecture and Urban Planning',
+        institution: 'Universidad Técnica de Manabí',
+        description: 'Mechanical Engineering',
         date: {
-          start: '2014-09',
-          end: '2015-09',
+          start: '2018-09',
+          end: '2020-09',
         },
       },
     ],

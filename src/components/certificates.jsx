@@ -5,13 +5,11 @@ export default function Certificates({ data }) {
     <section className="certificates">
       <h2>{title}</h2>
       <ul>
-        {list.map(({ name, provider }, i) => (
+        {list.map(({ name, provider, url }, i) => (
           <li key={name}>
             <h4>
               {name}
-              <span className="provider"> &mdash; {i === 0
-                ? <a href="https://www.codewars.com/users/luiggy">{provider}</a>
-                : provider}</span>
+              <span className="provider"> &mdash; {<a href={url} target='_blank'>{provider}</a>}</span>
             </h4>
           </li>
         ))}

@@ -11,7 +11,7 @@ import Summary from './components/summary.jsx';
 import Projects from './components/projects.jsx';
 //import WorkExperience from './components/work-experience.jsx';
 import Certificates from './components/certificates.jsx';
-//import Education from './components/education.jsx';
+import Education from './components/education.jsx';
 
 import allData from './data';
 
@@ -42,7 +42,7 @@ export default function App() {
           <Projects data={data.projects} />
           {/*<WorkExperience data={data.workExperience} />*/}
           <Certificates data={data.certificates} />
-          {/*<Education data={data.education} />*/}
+          {<Education data={data.education} />}
         </div>
       </div>
     </>

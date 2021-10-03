@@ -25,7 +25,7 @@ const data = {
    */
   summary: {
     title: 'Summary',
-    text: `Hello, my name is Luiggy. I'm a self-taught frontend developer with 1+ year of programming experience developing web applications and building websites. I primarly focus on writing clean, elegant and efficient code. I am proficient in HTML, CSS, JavaScript and React.`,
+    text: `Hello, my name is Luiggy. I'm a self-taught frontend developer with 1+ year of programming experience, developing web applications and building websites. I primarly focus on writing clean, elegant and efficient code. I am proficient in HTML, CSS, JavaScript and React.`,
   },
 
   /**
@@ -92,7 +92,7 @@ const data = {
   languages: {
     title: 'Languages',
     list: [
-      { text: 'English - B2 Upper Intermediate' },
+      { text: 'English - C1 Avanced' },
       { text: 'Spanish - Native' },
     ],
   },
@@ -281,7 +281,7 @@ const data = {
         url: 'https://www.freecodecamp.org/certification/macluiggy/front-end-development-libraries',
       },
       {
-        name: 'EFSET English Certificate (B2 Upper Intermediate)',
+        name: 'EFSET English Certificate (C1 Avanced)',
         provider: ' EF Standard English Test (EF SET)',
         url: 'http://efset.org/cert/2yqHjs',
       },

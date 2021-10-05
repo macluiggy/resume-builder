@@ -78,7 +78,7 @@ const data = {
   additionalSkills: {
     title: 'Additional skills',
     list: [
-      { text: 'Node.js' },
+      { text: 'Node.js, npm' },
       /*{ text: 'OAuth, Firebase' }*/,
       { text: 'GitHub, Git' },
       /*{ text: 'REST, GraphQL,' }*/,

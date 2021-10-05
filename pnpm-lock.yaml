@@ -1,12 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
+  pnpm: ^6.16.1
   react: ^17.0.1
   react-dom: ^17.0.1
   react-icons: ^4.2.0
   react-scripts: 4.0.3
 
 dependencies:
+  pnpm: 6.16.1
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-icons: 4.2.0_react@17.0.2
@@ -8338,6 +8340,12 @@ packages:
       ts-pnp: 1.2.0
     transitivePeerDependencies:
       - typescript
+    dev: false
+
+  /pnpm/6.16.1:
+    resolution: {integrity: sha512-oTZtaWJvvQ1V4KzpPya/BYYF90c6ICKmFYof8DAzMi0g2PEGseSVRdw/A2ov6mQJxBjHyRyYp/j42j8QOqRuKw==}
+    engines: {node: '>=12.17'}
+    hasBin: true
     dev: false
 
   /portfinder/1.0.28:

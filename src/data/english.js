@@ -78,6 +78,7 @@ const data = {
   additionalSkills: {
     title: 'Additional skills',
     list: [
+      { text: 'GNU/Linux' },
       { text: 'Node.js, npm' },
       /*{ text: 'OAuth, Firebase' }*/,
       { text: 'GitHub, Git' },
@@ -87,7 +88,7 @@ const data = {
   },
 
   /**
-   * Languages I speak
+   * Languages I speak.
    */
   languages: {
     title: 'Languages',

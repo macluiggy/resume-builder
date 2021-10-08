@@ -79,7 +79,7 @@ const data = {
     title: 'Additional skills',
     list: [
       { text: 'GNU/Linux' },
-      { text: 'Node.js, npm' },
+      { text: 'Node.js, npm, MongoDB' },
       /*{ text: 'OAuth, Firebase' }*/,
       { text: 'GitHub, Git' },
       /*{ text: 'REST, GraphQL,' }*/,
@@ -280,6 +280,11 @@ const data = {
         name: 'Front End Libraries Certification',
         provider: ' freeCodeCamp',
         url: 'https://www.freecodecamp.org/certification/macluiggy/front-end-development-libraries',
+      },
+      {
+        name: 'Back End Development and APIs Certification',
+        provider: ' freeCodeCamp',
+        url: 'https://freecodecamp.org/certification/macluiggy/back-end-development-and-apis',
       },
       {
         name: 'EFSET English Certificate (C1 Avanced)',

@@ -79,9 +79,10 @@ const data = {
     title: 'Additional skills',
     list: [
       { text: 'GNU/Linux' },
-      { text: 'Node.js, npm, MongoDB' },
+      { text: 'Node.js, npm' },
+      { text: 'MongoDB, Express' },
       /*{ text: 'OAuth, Firebase' }*/,
-      { text: 'GitHub, Git' },
+      { text: 'Git, GitHub' },
       /*{ text: 'REST, GraphQL,' }*/,
       { text: 'Sass, CSS-in-JS' },
     ],
@@ -114,6 +115,20 @@ const data = {
   projects: {
     title: 'Projects',
     list: [
+      {
+        name: 'Full Stack Movie Reviews App',
+        techList: [
+          'MongoDB',
+          'Express',
+          'React',
+          'Node.js',
+        ],
+        description: `
+          Full Stack JavaScript application, made with the MERN stack. This app fetches movies from
+          a Mongo database, you can also login and post a review, update or delete the reviews you
+           have made in the database.`,
+        url: 'https://movies-reviews-frontend.netlify.app',
+      },
       {
         name: 'Drum Machine App',
         techList: [
@@ -155,23 +170,7 @@ const data = {
           This is a project where the user can shorten any valid link, this was made 
           with the shortcode API`,
         url: 'https://macluiggy.github.io/url-shortening-api-master-FM',
-      },
-      {
-        name: 'Insure Landing Page',
-        techList: [
-          'HTML',
-          'CSS',
-          'JavaScript',
-          'Responsive Web Design',
-          'Media queries',
-        ],
-        description: `
-          Product Landing Page built for fake Insure brand. This was useful for 
-          practicing responsive web design.
-
-`,
-        url: 'https://macluiggy.github.io/FM-insure-landing-page-master',
-      },
+      }
       /*{
         name: 'Habit Tracker App',
         techList: [

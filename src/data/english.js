@@ -127,7 +127,7 @@ const data = {
           Full Stack JavaScript application, made with the MERN stack. This app fetches movies from
           a Mongo database, you can also login and post a review, update or delete the reviews you
            have made in the database.`,
-        url: 'https://movies-reviews-frontend.netlify.app',
+        url: 'https://bit.ly/3CcvhXA',
       },
       {
         name: 'Drum Machine App',
@@ -142,7 +142,7 @@ const data = {
           This application allows you to listen to some clips, you can switch between 
           two drums, turn the drum on and off and raise and lower the volume of the 
           drum.`,
-        url: 'https://drum-machine-free-code-camp.netlify.app/',
+        url: 'https://bit.ly/2ZdQXnB',
       },
       {
         name: 'Room homepage',
@@ -156,7 +156,7 @@ const data = {
         description: `
           This homepage were helpful to test my layout skills. There's a slider that 
           also were helpful to practice React Hooks`,
-        url: 'https://frontend-mentor-room-homepage.netlify.app/',
+        url: 'https://bit.ly/3C8nH05',
       },
       {
         name: 'URL Shortening API',
@@ -169,7 +169,7 @@ const data = {
         description: `
           This is a project where the user can shorten any valid link, this was made 
           with the shortcode API`,
-        url: 'https://macluiggy.github.io/url-shortening-api-master-FM',
+        url: 'https://bit.ly/3E8JaXk',
       }
       /*{
         name: 'Habit Tracker App',

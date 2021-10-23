@@ -10,7 +10,7 @@ export default function Projects({ data }) {
         {list.map(({ name, description, techList, url }) => (
           <li key={name}>
             <Link to={url}>
-              <h4>{name}</h4>
+              <h4>{name}: <span style={{ color: 'blue' }}>{url}</span></h4>
             </Link>
             <p className="sm-border-bottom">{techList.join(' | ')}</p>
             <p>{description}</p>

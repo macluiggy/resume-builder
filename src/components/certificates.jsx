@@ -9,7 +9,7 @@ export default function Certificates({ data }) {
           <li key={name}>
             <h4>
               {name}
-              <span className="provider"> &mdash; {<a href={url} target='_blank'>{provider}</a>}</span>
+              <span className="provider" > &mdash; {<a style={{color: 'blue'}} href={url} target='_blank'>{provider}</a>}</span>
             </h4>
           </li>
         ))}

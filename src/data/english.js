@@ -79,6 +79,7 @@ const data = {
     title: 'Additional skills',
     list: [
       { text: 'GNU/Linux' },
+      { text: 'TypeScript' },
       { text: 'Node.js, npm' },
       { text: 'MongoDB, Express' },
       /*{ text: 'OAuth, Firebase' }*/,
@@ -130,6 +131,20 @@ const data = {
         url: 'https://bit.ly/3CcvhXA',
       },
       {
+        name: 'Hacker Histories',
+        techList: [
+          'JavaScript',
+          'Hacker News API',
+          'React',
+          'TypeScript',
+          'Sass',
+          'Jest'
+        ],
+        description: `
+        This is a project where the user can search for a term and it will show the search results, this was done with the Hacker News API`,
+        url: 'https://bit.ly/hacker-news-searcher',
+      },
+      {
         name: 'Drum Machine App',
         techList: [
           'React',
@@ -158,19 +173,7 @@ const data = {
           also were helpful to practice React Hooks`,
         url: 'https://bit.ly/3C8nH05',
       },
-      {
-        name: 'URL Shortening API',
-        techList: [
-          'HTML',
-          'CSS',
-          'JavaScript',
-          'shortcode API'
-        ],
-        description: `
-          This is a project where the user can shorten any valid link, this was made 
-          with the shortcode API`,
-        url: 'https://bit.ly/3E8JaXk',
-      }
+      
       /*{
         name: 'Habit Tracker App',
         techList: [

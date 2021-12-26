@@ -1,28 +1,28 @@
-import * as React from 'react';
+import * as React from "react";
 import {
   FaCheckSquare as FullCheckIcon,
   FaRegCheckSquare as CheckIcon,
   FaRegComment as CommentIcon,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
-import Details from './components/details.jsx';
-import FullName from './components/full-name.jsx';
-import Summary from './components/summary.jsx';
-import Projects from './components/projects.jsx';
+import Details from "./components/details.jsx";
+import FullName from "./components/full-name.jsx";
+import Summary from "./components/summary.jsx";
+import Projects from "./components/projects.jsx";
 //import WorkExperience from './components/work-experience.jsx';
-import Certificates from './components/certificates.jsx';
-import Education from './components/education.jsx';
+import Certificates from "./components/certificates.jsx";
+import Education from "./components/education.jsx";
 
-import allData from './data';
+import allData from "./data";
 
 export default function App() {
-  const [language, setLanguage] = React.useState('english');
+  const [language, setLanguage] = React.useState("english");
 
   const data = allData[language];
 
   return (
     <>
-      <select onChange={e => setLanguage(e.target.value)}>
+      <select onChange={(e) => setLanguage(e.target.value)}>
         <option value="english">English</option>
         <option value="polish">Polish</option>
       </select>

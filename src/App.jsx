@@ -24,7 +24,8 @@ export default function App() {
     <>
       <select onChange={(e) => setLanguage(e.target.value)}>
         <option value="english">English</option>
-        <option value="polish">Polish</option>
+        <option value="spanish">Spanish</option>
+        {/* <option value="polish">Polish</option> */}
       </select>
 
       <div className="page">

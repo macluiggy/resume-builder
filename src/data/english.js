@@ -12,19 +12,20 @@ import {
   FaRegCalendarCheck,
   FaBook,
   FaRunning,
-} from 'react-icons/fa';
+} from "react-icons/fa";
+import { BiMovie } from "react-icons/bi";
 
 const data = {
   /**
    * Full name
    */
-  fullName: 'Luiggy Macias',
+  fullName: "Luiggy Macias",
 
   /**
    * Summary - short "about me" paragraph
    */
   summary: {
-    title: 'Summary',
+    title: "Summary",
     text: `Hello, my name is Luiggy. I'm a self-taught frontend developer with 1+ year of programming experience, developing web applications and building websites. I primarly focus on writing clean, elegant and efficient code. I am proficient in HTML, CSS, JavaScript and React.`,
   },
 
@@ -32,28 +33,28 @@ const data = {
    * Contact details
    */
   contact: {
-    title: 'Contact',
+    title: "Contact",
     list: [
       {
-        text: 'macluiggy.github.io',
-        url: 'https://macluiggy.github.io',
+        text: "macluiggy.github.io",
+        url: "https://macluiggy.github.io",
         icon: <FaGlobe />,
       },
       {
-        text: 'github.com/macluiggy',
-        url: 'https://github.com/macluiggy',
+        text: "github.com/macluiggy",
+        url: "https://github.com/macluiggy",
         icon: <FaGithub />,
       },
       {
-        text: 'ferrinluiggy@gmail.com',
+        text: "ferrinluiggy@gmail.com",
         icon: <FaEnvelope />,
       },
       {
-        text: '+593 985 518 903',
+        text: "+593 985 518 903",
         icon: <FaPhoneAlt />,
       },
       {
-        text: 'Portoviejo, Ecuador',
+        text: "Portoviejo, Ecuador",
         icon: <FaMapMarkerAlt />,
       },
     ],
@@ -63,12 +64,12 @@ const data = {
    * Key skills
    */
   keySkills: {
-    title: 'Key skills',
+    title: "Key skills",
     list: [
-      { text: 'React, Redux, JSX' },
-      { text: 'JavaScript' },
-      { text: 'Responsive Web Design' },
-      { text: 'HTML5, CSS3' },
+      { text: "React, JSX" },
+      { text: "JavaScript" },
+      { text: "Responsive Web Design" },
+      { text: "HTML5, CSS3" },
     ],
   },
 
@@ -76,16 +77,17 @@ const data = {
    * Additional skills
    */
   additionalSkills: {
-    title: 'Additional skills',
+    title: "Additional skills",
     list: [
-      { text: 'GNU/Linux' },
-      { text: 'TypeScript' },
-      { text: 'Node.js, npm' },
-      { text: 'MongoDB, Express' },
-      /*{ text: 'OAuth, Firebase' }*/,
-      { text: 'Git, GitHub' },
-      /*{ text: 'REST, GraphQL,' }*/,
-      { text: 'Sass, CSS-in-JS' },
+      { text: "GNU/Linux" },
+      { text: "TypeScript" },
+      { text: "Node.js, Express " },
+      { text: "MongoDB, PostgreSQL" },
+      { text: "Redux, TDD" },
+      ,
+      /*{ text: 'OAuth, Firebase' }*/ { text: "Git, GitHub, npm" },
+      ,
+      /*{ text: 'REST, GraphQL,' }*/ { text: "Sass, CSS-in-JS" },
     ],
   },
 
@@ -93,87 +95,89 @@ const data = {
    * Languages I speak.
    */
   languages: {
-    title: 'Languages',
-    list: [
-      { text: 'English - C1 Avanced' },
-      { text: 'Spanish - Native' },
-    ],
+    title: "Languages",
+    list: [{ text: "English - C1 Avanced" }, { text: "Spanish - Native" }],
   },
 
   /**
    * Hobbies and interests
    */
   interests: {
-    title: 'Interests',
+    title: "Interests",
     list: [
-      { text: 'Learning new things', icon: <FaReact /> },
-      { text: 'Building habits', icon: <FaRegCalendarCheck /> },
-      { text: 'Reading', icon: <FaBook /> },
-      { text: 'Being active', icon: <FaRunning /> },
+      { text: "Learning new things", icon: <FaReact /> },
+      { text: "Watching series", icon: <BiMovie /> },
+      { text: "Building habits", icon: <FaRegCalendarCheck /> },
+      { text: "Reading", icon: <FaBook /> },
+      { text: "Being active", icon: <FaRunning /> },
     ],
   },
 
   projects: {
-    title: 'Projects',
+    title: "Projects",
     list: [
       {
-        name: 'Full Stack Movie Reviews App',
+        name: "Full Stack PERN Tasks App",
         techList: [
-          'MongoDB',
-          'Express',
-          'React',
-          'Node.js',
+          "PostgreSQL",
+          "Express",
+          "React",
+          "Node.js",
+          "TypeScript",
+          "Webpack",
+          "TDD: Mocha Chai",
         ],
+        description: `
+        A fullstack PERN Stack Tasks App . This app is a simple todo list app that uses the PERN Stack, where the user can create tasks, edit them, and delete them. The backend is deployed on Heroku and the frontend is deployed on Netlify.`,
+        url: "https://bit.ly/pern-tasks",
+      },
+      {
+        name: "Full Stack Movie Reviews App",
+        techList: ["MongoDB", "Express", "React", "Node.js"],
         description: `
           Full Stack JavaScript application, made with the MERN stack. This app fetches movies from
           a Mongo database, you can also login and post a review, update or delete the reviews you
            have made in the database.`,
-        url: 'https://bit.ly/3CcvhXA',
+        url: "https://bit.ly/pern-tasks",
       },
       {
-        name: 'Hacker Histories',
+        name: "Hacker Histories",
         techList: [
-          'JavaScript',
-          'Hacker News API',
-          'React',
-          'TypeScript',
-          'Sass',
-          'Jest'
+          "JavaScript",
+          "Hacker News API",
+          "React",
+          "TypeScript",
+          "Sass",
+          "Jest",
         ],
         description: `
         This is a project where the user can search for a term and it will show the search results, this was done with the Hacker News API`,
-        url: 'https://bit.ly/hacker-news-searcher',
+        url: "https://bit.ly/hacker-news-searcher",
       },
       {
-        name: 'Drum Machine App',
-        techList: [
-          'React',
-          'Redux',
-          'HTML',
-          'JavaScript',
-          'Sass'
-        ],
+        name: "Drum Machine App",
+        techList: ["React", "Redux", "HTML", "JavaScript", "Sass"],
         description: `
           This application allows you to listen to some clips, you can switch between 
           two drums, turn the drum on and off and raise and lower the volume of the 
           drum.`,
-        url: 'https://bit.ly/2ZdQXnB',
+        url: "https://bit.ly/2ZdQXnB",
       },
-      {
-        name: 'Room homepage',
-        techList: [
-          'React',
-          'React useEffect & useState',
-          'HTML',
-          'JavaScript',
-          'Sass'
-        ],
-        description: `
-          This homepage were helpful to test my layout skills. There's a slider that 
-          also were helpful to practice React Hooks`,
-        url: 'https://bit.ly/3C8nH05',
-      },
-      
+      // {
+      //   name: "Room homepage",
+      //   techList: [
+      //     "React",
+      //     "React useEffect & useState",
+      //     "HTML",
+      //     "JavaScript",
+      //     "Sass",
+      //   ],
+      //   description: `
+      //     This homepage were helpful to test my layout skills. There's a slider that
+      //     also were helpful to practice React Hooks`,
+      //   url: "https://bit.ly/3C8nH05",
+      // },
+
       /*{
         name: 'Habit Tracker App',
         techList: [
@@ -261,37 +265,37 @@ const data = {
    * Certificates and courses
    */
   certificates: {
-    title: 'Education & Certificates',
+    title: "Education & Certificates",
     list: [
       {
-        name: 'Improving my problem solving skills by doing katas in codewars.',
-        provider: ' Codewars',
-        url: 'https://www.codewars.com/users/luiggy',
+        name: "Improving my problem solving skills by doing katas in codewars.",
+        provider: " Codewars",
+        url: "https://www.codewars.com/users/luiggy",
       },
       {
-        name: 'Responsive Web Design Certification',
-        provider: ' freeCodeCamp',
-        url: 'https://www.freecodecamp.org/certification/macluiggy/responsive-web-design',
+        name: "Responsive Web Design Certification",
+        provider: " freeCodeCamp",
+        url: "https://www.freecodecamp.org/certification/macluiggy/responsive-web-design",
       },
       {
-        name: 'Algorithms and Data Structures Certification',
-        provider: ' freeCodeCamp',
-        url: 'https://www.freecodecamp.org/certification/macluiggy/javascript-algorithms-and-data-structures',
+        name: "Algorithms and Data Structures Certification",
+        provider: " freeCodeCamp",
+        url: "https://www.freecodecamp.org/certification/macluiggy/javascript-algorithms-and-data-structures",
       },
       {
-        name: 'Front End Libraries Certification',
-        provider: ' freeCodeCamp',
-        url: 'https://www.freecodecamp.org/certification/macluiggy/front-end-development-libraries',
+        name: "Front End Libraries Certification",
+        provider: " freeCodeCamp",
+        url: "https://www.freecodecamp.org/certification/macluiggy/front-end-development-libraries",
       },
       {
-        name: 'Back End Development and APIs Certification',
-        provider: ' freeCodeCamp',
-        url: 'https://freecodecamp.org/certification/macluiggy/back-end-development-and-apis',
+        name: "Back End Development and APIs Certification",
+        provider: " freeCodeCamp",
+        url: "https://freecodecamp.org/certification/macluiggy/back-end-development-and-apis",
       },
       {
-        name: 'EFSET English Certificate (C1 Avanced)',
-        provider: ' EF Standard English Test (EF SET)',
-        url: 'http://efset.org/cert/2yqHjs',
+        name: "EFSET English Certificate (C1 Avanced)",
+        provider: " EF Standard English Test (EF SET)",
+        url: "http://efset.org/cert/2yqHjs",
       },
     ],
   },
@@ -300,14 +304,14 @@ const data = {
    * Education, school, etc
    */
   education: {
-    title: 'Education',
+    title: "Education",
     list: [
       {
-        institution: 'Universidad Técnica de Manabí',
-        description: 'Mechanical Engineering',
+        institution: "Universidad Técnica de Manabí",
+        description: "Mechanical Engineering",
         date: {
-          start: '2018-09',
-          end: '2020-09',
+          start: "2018-09",
+          end: "2020-09",
         },
       },
     ],

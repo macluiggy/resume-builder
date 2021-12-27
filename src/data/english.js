@@ -7,7 +7,7 @@ import {
   FaMapMarkerAlt,
 
   // Interests
-  FaChessKnight,
+  // FaChessKnight,
   FaReact,
   FaRegCalendarCheck,
   FaBook,
@@ -84,9 +84,7 @@ const data = {
       { text: "Node.js, Express " },
       { text: "MongoDB, PostgreSQL" },
       { text: "Redux, TDD" },
-      ,
       /*{ text: 'OAuth, Firebase' }*/ { text: "Git, GitHub, npm" },
-      ,
       /*{ text: 'REST, GraphQL,' }*/ { text: "Sass, CSS-in-JS" },
     ],
   },

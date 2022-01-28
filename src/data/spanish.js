@@ -23,10 +23,13 @@ const data = {
 
   /**
    * Summary - short "about me" paragraph
+   
+  antiguo resumen: Hola mi nombre es Luiggy. Soy un desarrollador de frontend con más de 1 año de experiencia en el desarrollo de aplicaciones web y construcción de sitios web. Me centro en escribir código limpio, elegantes y eficiente. Soy competente usando HTML, CSS, JavaScript y React.
    */
   summary: {
-    title: "Summary",
-    text: `Hola mi nombre es Luiggy. Soy un desarrollador de frontend con más de 1 año de experiencia en el desarrollo de aplicaciones web y construcción de sitios web. Me centro en escribir código limpio, elegantes y eficiente. Soy competente usando HTML, CSS, JavaScript y React.`,
+    title: "Resumen",
+    text: `
+    Desarrollador web con +1 año de experiencia en programación y en el desarrollo de software. Me centro en aprender haciendo mediante la contruccion de proyectos, actualmente más de 20 proyectos construidos, siempre estoy buscando nuevas formas de mejorarme. Apasionado por el desarrollo de software y la tecnología.`,
   },
 
   /**
@@ -113,6 +116,7 @@ const data = {
 
   projects: {
     title: "Proyectos",
+    text: "Puedes encontrar todos mis proyectos y las tecnologías que he usado para construirlos aquí:",
     list: [
       {
         name: "Full Stack PERN Tasks App",

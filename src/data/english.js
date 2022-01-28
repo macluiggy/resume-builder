@@ -14,6 +14,7 @@ import {
   FaRunning,
 } from "react-icons/fa";
 import { BiMovie } from "react-icons/bi";
+import "./styles.css";
 
 const data = {
   /**
@@ -23,10 +24,13 @@ const data = {
 
   /**
    * Summary - short "about me" paragraph
+   old summary : 
+   Hello, my name is Luiggy. I'm a self-taught frontend developer with 1+ year of programming experience, developing web applications and building websites. I primarly focus on writing clean, elegant and efficient code. I am proficient in HTML, CSS, JavaScript and React.
    */
   summary: {
     title: "Summary",
-    text: `Hello, my name is Luiggy. I'm a self-taught frontend developer with 1+ year of programming experience, developing web applications and building websites. I primarly focus on writing clean, elegant and efficient code. I am proficient in HTML, CSS, JavaScript and React.`,
+    text: `
+    Hard-working web developer with +1 year of programming experience and flair for creating elegant solutions in the least amount of time. I primary focus on learning by doing and building proyects, currently more than 20 projects built, I am always looking for new ways to improve myself. Passionate about software development and technology.`,
   },
 
   /**
@@ -113,7 +117,40 @@ const data = {
 
   projects: {
     title: "Projects",
+    text: "You can find all my projects and the technologies I've used to build them here:",
     list: [
+      {
+        name: "Full Stack User Registrarion App",
+        techList: [
+          "MonogoDB",
+          "Express",
+          "React",
+          "NextJS",
+          "Node.js",
+          "TypeScript",
+          "Webpack",
+          "TDD: Mocha Chai",
+        ],
+        description: (
+          <div>
+            <p>
+              Full Stack user registration and login page, this app has the
+              following features:
+            </p>
+            <ul className="project-features">
+              <li>User registration and login</li>
+              <li>User authentication and authorization using jsonwebtoken</li>
+              <li>Password hashing</li>
+              <li>User data storage in a database</li>
+              <li>
+                Redirects depending on the user's current authentication status
+              </li>
+              <li>Updates user data in the database</li>
+            </ul>
+          </div>
+        ),
+        url: "https://bit.ly/3KPtWuh",
+      },
       {
         name: "Full Stack PERN Tasks App",
         techList: [
@@ -136,22 +173,22 @@ const data = {
           Full Stack JavaScript application, made with the MERN stack. This app fetches movies from
           a Mongo database, you can also login and post a review, update or delete the reviews you
            have made in the database.`,
-        url: "https://bit.ly/pern-tasks",
+        url: "https://bit.ly/3CcvhXA",
       },
-      {
-        name: "Hacker Histories",
-        techList: [
-          "JavaScript",
-          "Hacker News API",
-          "React",
-          "TypeScript",
-          "Sass",
-          "Jest",
-        ],
-        description: `
-        This is a project where the user can search for a term and it will show the search results, this was done with the Hacker News API`,
-        url: "https://bit.ly/hacker-news-searcher",
-      },
+      // {
+      //   name: "Hacker Histories",
+      //   techList: [
+      //     "JavaScript",
+      //     "Hacker News API",
+      //     "React",
+      //     "TypeScript",
+      //     "Sass",
+      //     "Jest",
+      //   ],
+      //   description: `
+      //   This is a project where the user can search for a term and it will show the search results, this was done with the Hacker News API`,
+      //   url: "https://bit.ly/hacker-news-searcher",
+      // },
       {
         name: "Drum Machine App",
         techList: ["React", "Redux", "HTML", "JavaScript", "Sass"],

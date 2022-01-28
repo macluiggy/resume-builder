@@ -41,6 +41,9 @@ export default function App() {
           <FullName text={data.fullName} />
           <Summary data={data.summary} />
           <Projects data={data.projects} />
+          {/* <div>
+            You can find all my projects and the technologies I've used here:{" "}
+          </div> */}
           {/*<WorkExperience data={data.workExperience} />*/}
           <Certificates data={data.certificates} />
           {<Education data={data.education} />}

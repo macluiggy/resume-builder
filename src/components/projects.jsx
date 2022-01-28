@@ -9,9 +9,13 @@ export default function Projects({ data }) {
         <h2>{title}</h2>
         <p>
           {text}{" "}
-          <a style={{ color: "blue" }} href="https://bit.ly/all-the-projects">
-            https://bit.ly/all-the-projects
-          </a>
+          <Link to={"https://bit.ly/all-the-projects"}>
+            <h4>
+              <span style={{ color: "blue" }}>
+                https://bit.ly/all-the-projects
+              </span>
+            </h4>
+          </Link>
         </p>
       </div>
       <ul>

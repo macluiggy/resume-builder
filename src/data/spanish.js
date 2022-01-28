@@ -14,6 +14,7 @@ import {
   FaRunning,
 } from "react-icons/fa";
 import { BiMovie } from "react-icons/bi";
+import "./styles.css";
 
 const data = {
   /**
@@ -85,6 +86,7 @@ const data = {
       { text: "GNU/Linux" },
       { text: "TypeScript" },
       { text: "Node.js, Express " },
+      { text: "NextJS" },
       { text: "MongoDB, PostgreSQL" },
       { text: "Redux, TDD" },
       /*{ text: 'OAuth, Firebase' }*/ { text: "Git, GitHub, npm" },
@@ -119,6 +121,40 @@ const data = {
     text: "Puedes encontrar todos mis proyectos y las tecnologías que he usado para construirlos aquí:",
     list: [
       {
+        name: "Full Stack User Registrarion App",
+        techList: [
+          "MonogoDB",
+          "Express",
+          "React",
+          "NextJS",
+          "Node.js",
+          "TypeScript",
+          "Webpack",
+        ],
+        description: (
+          <div>
+            <p>
+              Aplicacion Full Stack de registro y login de usuarios, tiene las
+              siguientes caracteristicas:
+            </p>
+            <ul className="project-features">
+              <li>Registro y login de usuarios</li>
+              <li>
+                Autenticación y autorización de usuarios usando jsonwebtoken
+              </li>
+              <li>Hashing de contraseñas</li>
+              <li>Almacenamiento de datos de usuario en una base de datos</li>
+              <li>
+                Redireccionamiento, dependiendo del estado de autenciación
+                actual del usuario
+              </li>
+              <li>Actualización de datos de usuario en la base de datos</li>
+            </ul>
+          </div>
+        ),
+        url: "https://bit.ly/3ATSDBv",
+      },
+      {
         name: "Full Stack PERN Tasks App",
         techList: [
           "PostgreSQL",
@@ -138,25 +174,25 @@ const data = {
         description: `Aplicacion full stack, construida con el stack MERN. Esta aplicacion trae peliculas de una base de datos Mongo, tambien puedes iniciar sesion y publicar una reseña, actualizar o eliminar las reseñas que hayas hecho en la base de datos.`,
         url: "https://bit.ly/3CcvhXA",
       },
-      {
-        name: "Hacker Histories",
-        techList: [
-          "JavaScript",
-          "Hacker News API",
-          "React",
-          "TypeScript",
-          "Sass",
-          "Jest",
-        ],
-        description: `Este proyecto es una aplicacion que permite buscar un termino y mostrar los resultados de la busqueda. Esta aplicacion fue hecha con la API de Hacker News.`,
-        url: "https://bit.ly/hacker-news-searcher",
-      },
-      {
-        name: "Drum Machine App",
-        techList: ["React", "Redux", "HTML", "JavaScript", "Sass"],
-        description: `Esta aplicacon te permite escuchar algunos clips, puedes cambiar entre dos tambores, encender y apagar el tambor y subir y bajar el volumen del tambor. `,
-        url: "https://bit.ly/2ZdQXnB",
-      },
+      // {
+      //   name: "Hacker Histories",
+      //   techList: [
+      //     "JavaScript",
+      //     "Hacker News API",
+      //     "React",
+      //     "TypeScript",
+      //     "Sass",
+      //     "Jest",
+      //   ],
+      //   description: `Este proyecto es una aplicacion que permite buscar un termino y mostrar los resultados de la busqueda. Esta aplicacion fue hecha con la API de Hacker News.`,
+      //   url: "https://bit.ly/hacker-news-searcher",
+      // },
+      // {
+      //   name: "Drum Machine App",
+      //   techList: ["React", "Redux", "HTML", "JavaScript", "Sass"],
+      //   description: `Esta aplicacon te permite escuchar algunos clips, puedes cambiar entre dos tambores, encender y apagar el tambor y subir y bajar el volumen del tambor. `,
+      //   url: "https://bit.ly/2ZdQXnB",
+      // },
       // {
       //   name: "Room homepage",
       //   techList: [
@@ -260,7 +296,7 @@ const data = {
     title: "Certificaciones",
     list: [
       {
-        name: "Mejorando mis habilidades de resolución de problemas haciendo katas en codewars",
+        name: "Mejorando la de resolución de problemas haciendo katas en codewars",
         provider: "Codewars",
         url: "https://www.codewars.com/users/luiggy",
       },
@@ -283,6 +319,11 @@ const data = {
         name: "Certificación de desarrollo Back End y APIs",
         provider: " freeCodeCamp",
         url: "https://freecodecamp.org/certification/macluiggy/back-end-development-and-apis",
+      },
+      {
+        name: "Quality Assurance",
+        provider: "freeCodeCamp",
+        url: "https://bit.ly/3rSi4Pq",
       },
       {
         name: "EFSET English Certificate (C1 Avanced)",

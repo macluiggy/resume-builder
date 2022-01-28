@@ -86,6 +86,7 @@ const data = {
       { text: "GNU/Linux" },
       { text: "TypeScript" },
       { text: "Node.js, Express " },
+      { text: "NextJS" },
       { text: "MongoDB, PostgreSQL" },
       { text: "Redux, TDD" },
       /*{ text: 'OAuth, Firebase' }*/ { text: "Git, GitHub, npm" },
@@ -129,7 +130,6 @@ const data = {
           "Node.js",
           "TypeScript",
           "Webpack",
-          "TDD: Mocha Chai",
         ],
         description: (
           <div>
@@ -149,7 +149,7 @@ const data = {
             </ul>
           </div>
         ),
-        url: "https://bit.ly/3KPtWuh",
+        url: "https://bit.ly/3ATSDBv",
       },
       {
         name: "Full Stack PERN Tasks App",
@@ -189,15 +189,15 @@ const data = {
       //   This is a project where the user can search for a term and it will show the search results, this was done with the Hacker News API`,
       //   url: "https://bit.ly/hacker-news-searcher",
       // },
-      {
-        name: "Drum Machine App",
-        techList: ["React", "Redux", "HTML", "JavaScript", "Sass"],
-        description: `
-          This application allows you to listen to some clips, you can switch between 
-          two drums, turn the drum on and off and raise and lower the volume of the 
-          drum.`,
-        url: "https://bit.ly/2ZdQXnB",
-      },
+      // {
+      //   name: "Drum Machine App",
+      //   techList: ["React", "Redux", "HTML", "JavaScript", "Sass"],
+      //   description: `
+      //     This application allows you to listen to some clips, you can switch between
+      //     two drums, turn the drum on and off and raise and lower the volume of the
+      //     drum.`,
+      //   url: "https://bit.ly/2ZdQXnB",
+      // },
       // {
       //   name: "Room homepage",
       //   techList: [
@@ -300,7 +300,7 @@ const data = {
    * Certificates and courses
    */
   certificates: {
-    title: "Education & Certificates",
+    title: "Certificates",
     list: [
       {
         name: "Improving my problem solving skills by doing katas in codewars.",
@@ -326,6 +326,11 @@ const data = {
         name: "Back End Development and APIs Certification",
         provider: " freeCodeCamp",
         url: "https://freecodecamp.org/certification/macluiggy/back-end-development-and-apis",
+      },
+      {
+        name: "Quality Assurance",
+        provider: "freeCodeCamp",
+        url: "https://bit.ly/3rSi4Pq",
       },
       {
         name: "EFSET English Certificate (C1 Avanced)",

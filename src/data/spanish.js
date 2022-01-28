@@ -15,12 +15,14 @@ import {
 } from "react-icons/fa";
 import { BiMovie } from "react-icons/bi";
 import "./styles.css";
-
+import englishData from "./english";
+const { additionalSkills, keySkills, contact, fullName, education } =
+  englishData;
 const data = {
   /**
    * Full name
    */
-  fullName: "Luiggy Macias",
+  fullName,
 
   /**
    * Summary - short "about me" paragraph
@@ -38,30 +40,7 @@ const data = {
    */
   contact: {
     title: "Contacto",
-    list: [
-      {
-        text: "macluiggy.github.io",
-        url: "https://macluiggy.github.io",
-        icon: <FaGlobe />,
-      },
-      {
-        text: "github.com/macluiggy",
-        url: "https://github.com/macluiggy",
-        icon: <FaGithub />,
-      },
-      {
-        text: "ferrinluiggy@gmail.com",
-        icon: <FaEnvelope />,
-      },
-      {
-        text: "+593 985 518 903",
-        icon: <FaPhoneAlt />,
-      },
-      {
-        text: "Portoviejo, Ecuador",
-        icon: <FaMapMarkerAlt />,
-      },
-    ],
+    list: contact.list,
   },
 
   /**
@@ -69,12 +48,7 @@ const data = {
    */
   keySkills: {
     title: "Habilidades clave",
-    list: [
-      { text: "React, JSX" },
-      { text: "JavaScript" },
-      { text: "Responsive Web Design" },
-      { text: "HTML5, CSS3" },
-    ],
+    list: keySkills.list,
   },
 
   /**
@@ -82,16 +56,7 @@ const data = {
    */
   additionalSkills: {
     title: "Habilidades adicionales",
-    list: [
-      { text: "GNU/Linux" },
-      { text: "TypeScript" },
-      { text: "Node.js, Express " },
-      { text: "NextJS" },
-      { text: "MongoDB, PostgreSQL" },
-      { text: "Redux, TDD" },
-      /*{ text: 'OAuth, Firebase' }*/ { text: "Git, GitHub, npm" },
-      /*{ text: 'REST, GraphQL,' }*/ { text: "Sass, CSS-in-JS" },
-    ],
+    list: additionalSkills.list,
   },
 
   /**
@@ -174,39 +139,40 @@ const data = {
         description: `Aplicacion full stack, construida con el stack MERN. Esta aplicacion trae peliculas de una base de datos Mongo, tambien puedes iniciar sesion y publicar una reseña, actualizar o eliminar las reseñas que hayas hecho en la base de datos.`,
         url: "https://bit.ly/3CcvhXA",
       },
-      // {
-      //   name: "Hacker Histories",
-      //   techList: [
-      //     "JavaScript",
-      //     "Hacker News API",
-      //     "React",
-      //     "TypeScript",
-      //     "Sass",
-      //     "Jest",
-      //   ],
-      //   description: `Este proyecto es una aplicacion que permite buscar un termino y mostrar los resultados de la busqueda. Esta aplicacion fue hecha con la API de Hacker News.`,
-      //   url: "https://bit.ly/hacker-news-searcher",
-      // },
-      // {
-      //   name: "Drum Machine App",
-      //   techList: ["React", "Redux", "HTML", "JavaScript", "Sass"],
-      //   description: `Esta aplicacon te permite escuchar algunos clips, puedes cambiar entre dos tambores, encender y apagar el tambor y subir y bajar el volumen del tambor. `,
-      //   url: "https://bit.ly/2ZdQXnB",
-      // },
-      // {
-      //   name: "Room homepage",
-      //   techList: [
-      //     "React",
-      //     "React useEffect & useState",
-      //     "HTML",
-      //     "JavaScript",
-      //     "Sass",
-      //   ],
-      //   description: ` Esta pagina de inicio fue de ayuda para probar mis habilidades de diseño. Tambien hay un slider que fue de ayuda para practicar React Hooks. `,
-      //   url: "https://bit.ly/3C8nH05",
-      // },
 
-      /*{
+      /*
+      {
+        name: "Hacker Histories",
+        techList: [
+          "JavaScript",
+          "Hacker News API",
+          "React",
+          "TypeScript",
+          "Sass",
+          "Jest",
+        ],
+        description: `Este proyecto es una aplicacion que permite buscar un termino y mostrar los resultados de la busqueda. Esta aplicacion fue hecha con la API de Hacker News.`,
+        url: "https://bit.ly/hacker-news-searcher",
+      },
+      {
+        name: "Drum Machine App",
+        techList: ["React", "Redux", "HTML", "JavaScript", "Sass"],
+        description: `Esta aplicacon te permite escuchar algunos clips, puedes cambiar entre dos tambores, encender y apagar el tambor y subir y bajar el volumen del tambor. `,
+        url: "https://bit.ly/2ZdQXnB",
+      },
+      {
+        name: "Room homepage",
+        techList: [
+          "React",
+          "React useEffect & useState",
+          "HTML",
+          "JavaScript",
+          "Sass",
+        ],
+        description: ` Esta pagina de inicio fue de ayuda para probar mis habilidades de diseño. Tambien hay un slider que fue de ayuda para practicar React Hooks. `,
+        url: "https://bit.ly/3C8nH05",
+      },
+      {
         name: 'Habit Tracker App',
         techList: [
           'React',
@@ -338,16 +304,7 @@ const data = {
    */
   education: {
     title: "Educación",
-    list: [
-      {
-        institution: "Universidad Técnica de Manabí",
-        description: "Ingeniería Mecánica",
-        date: {
-          start: "2018-09",
-          end: "2020-09",
-        },
-      },
-    ],
+    list: education.list,
   },
 };
 

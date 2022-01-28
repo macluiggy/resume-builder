@@ -83,7 +83,7 @@ const data = {
   additionalSkills: {
     title: "Additional skills",
     list: [
-      { text: "GNU/Linux" },
+      { text: "Linux" },
       { text: "TypeScript" },
       { text: "Node.js, Express " },
       { text: "NextJS" },
@@ -304,28 +304,28 @@ const data = {
     list: [
       {
         name: "Improving my problem solving skills by doing katas in codewars.",
-        provider: " Codewars",
-        url: "https://www.codewars.com/users/luiggy",
+        provider: "Codewars",
+        url: "https://bit.ly/3AHDyCP",
       },
       {
         name: "Responsive Web Design Certification",
-        provider: " freeCodeCamp",
-        url: "https://www.freecodecamp.org/certification/macluiggy/responsive-web-design",
+        provider: "freeCodeCamp",
+        url: "https://bit.ly/3g9k3tr",
       },
       {
-        name: "Algorithms and Data Structures Certification",
-        provider: " freeCodeCamp",
-        url: "https://www.freecodecamp.org/certification/macluiggy/javascript-algorithms-and-data-structures",
+        name: "JavaScript Algorithms and Data Structures Certification",
+        provider: "freeCodeCamp",
+        url: "https://bit.ly/3IRGTSN",
       },
       {
         name: "Front End Libraries Certification",
-        provider: " freeCodeCamp",
-        url: "https://www.freecodecamp.org/certification/macluiggy/front-end-development-libraries",
+        provider: "freeCodeCamp",
+        url: "https://bit.ly/3IRHgNb",
       },
       {
         name: "Back End Development and APIs Certification",
-        provider: " freeCodeCamp",
-        url: "https://freecodecamp.org/certification/macluiggy/back-end-development-and-apis",
+        provider: "freeCodeCamp",
+        url: "https://bit.ly/3G8OPgE",
       },
       {
         name: "Quality Assurance",
@@ -335,7 +335,7 @@ const data = {
       {
         name: "EFSET English Certificate (C1 Avanced)",
         provider: " EF Standard English Test (EF SET)",
-        url: "http://efset.org/cert/2yqHjs",
+        url: "https://bit.ly/3KSpP0M",
       },
     ],
   },

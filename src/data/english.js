@@ -121,36 +121,50 @@ const data = {
     text: "You can find all my projects and the technologies I've used to build them here:",
     list: [
       {
-        name: "Full Stack User Registrarion App",
+        name: "Full Stack Social Media  App",
         techList: [
           "MonogoDB",
           "Express",
           "React",
-          "NextJS",
           "Node.js",
           "TypeScript",
           "Webpack",
+          "Material UI",
         ],
-        description: (
-          <div>
-            <p>
-              Full Stack user registration and login page, this app has the
-              following features:
-            </p>
-            <ul className="project-features">
-              <li>User registration and login</li>
-              <li>User authentication and authorization using jsonwebtoken</li>
-              <li>Password hashing</li>
-              <li>User data storage in a database</li>
-              <li>
-                Redirects depending on the user's current authentication status
-              </li>
-              <li>Updates user data in the database</li>
-            </ul>
-          </div>
-        ),
-        url: "https://bit.ly/3ATSDBv",
+        description: `FullStack Social Media App, this app uses advanced concepts like authentication and authorization with json web tokens (JWT) to secure the app, so only authenticated users can access certain parts of the app like creating a post, deleting a post, liking a post, commenting on a post, etc. You can also follow other users and see their profile and posts.`,
+        url: "https://bit.ly/3H1m2uR",
       },
+      // {
+      //   name: "Full Stack User Registrarion App",
+      //   techList: [
+      //     "MonogoDB",
+      //     "Express",
+      //     "React",
+      //     "NextJS",
+      //     "Node.js",
+      //     "TypeScript",
+      //     "Webpack",
+      //   ],
+      //   description: (
+      //     <div>
+      //       <p>
+      //         Full Stack user registration and login page, this app has the
+      //         following features:
+      //       </p>
+      //       <ul className="project-features">
+      //         <li>User registration and login</li>
+      //         <li>User authentication and authorization using jsonwebtoken</li>
+      //         <li>Password hashing</li>
+      //         <li>User data storage in a database</li>
+      //         <li>
+      //           Redirects depending on the user's current authentication status
+      //         </li>
+      //         <li>Updates user data in the database</li>
+      //       </ul>
+      //     </div>
+      //   ),
+      //   url: "https://bit.ly/3KPtWuh",
+      // },
       {
         name: "Full Stack PERN Tasks App",
         techList: [
@@ -353,6 +367,10 @@ const data = {
           start: "2018-09",
           end: "2020-09",
         },
+      },
+      {
+        institution: "freeCodeCamp",
+        description: "Full Stack Web Development",
       },
     ],
   },

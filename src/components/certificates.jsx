@@ -6,7 +6,12 @@ export default function Certificates({ data }) {
       <h2>{title}</h2>
       <ul>
         {list.map(({ name, provider, url }, i) => (
-          <li key={name}>
+          <li
+            key={name}
+            style={{
+              margin: "0.4em 0",
+            }}
+          >
             <h4>
               {name}
               <span className="provider">

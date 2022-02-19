@@ -23,7 +23,10 @@ export default function Projects({ data }) {
           <li key={name}>
             <Link to={url}>
               <h4>
-                {name}: <span style={{ color: "blue" }}>{url}</span>
+                {name}:{" "}
+                <span style={{ color: "blue" }}>
+                  click here to see the project
+                </span>
               </h4>
             </Link>
             <p className="sm-border-bottom">{techList.join(" | ")}</p>

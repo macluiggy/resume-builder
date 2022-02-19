@@ -86,39 +86,67 @@ const data = {
     text: "Puedes encontrar todos mis proyectos y las tecnologías que he usado para construirlos aquí:",
     list: [
       {
-        name: "Full Stack User Registrarion App",
+        name: "Red Social FullStack",
         techList: [
           "MonogoDB",
           "Express",
           "React",
-          "NextJS",
           "Node.js",
           "TypeScript",
           "Webpack",
+          "Material UI",
         ],
-        description: (
-          <div>
-            <p>
-              Aplicacion Full Stack de registro y login de usuarios, tiene las
-              siguientes caracteristicas:
-            </p>
-            <ul className="project-features">
-              <li>Registro y login de usuarios</li>
-              <li>
-                Autenticación y autorización de usuarios usando jsonwebtoken
-              </li>
-              <li>Hashing de contraseñas</li>
-              <li>Almacenamiento de datos de usuario en una base de datos</li>
-              <li>
-                Redireccionamiento, dependiendo del estado de autenciación
-                actual del usuario
-              </li>
-              <li>Actualización de datos de usuario en la base de datos</li>
-            </ul>
-          </div>
-        ),
-        url: "https://bit.ly/3ATSDBv",
+        description: `
+        Aplicación de Red Social FullStack, esta app usa conceptos avanzados como autenticación y autorización con json web tokens (JWT) para proteger la app, por lo que solo los usuarios autenticados pueden acceder a ciertas partes de la app como crear un post, eliminar un post, darle me gusta un post, comentar en un post, etc. También puedes seguir a otros usuarios y ver su perfil y posts.`,
+        url: "https://bit.ly/3H1m2uR",
+        /*
+        I've built a fullstack social media app, this was the most challenging app I've made until now, you can see it here:
+https://bit.ly/3H1m2uR
+To see its functionalities, please create and account or use an existing account to sign in with this credentials:
+email: pep@gmail.com
+password: 123456
+spanish:
+He construido una app de red social fullstack, esta app fue la más difícil que he hecho hasta ahora, puedes verla aquí:
+https://bit.ly/3H1m2uR
+Para ver sus funcionalidades, por favor crea una cuenta o usa una cuenta existente para iniciar sesión con estas credenciales:
+email: pepe@gmail.com
+password: 123456
+        */
       },
+      // {
+      //   name: "Full Stack User Registrarion App",
+      //   techList: [
+      //     "MonogoDB",
+      //     "Express",
+      //     "React",
+      //     "NextJS",
+      //     "Node.js",
+      //     "TypeScript",
+      //     "Webpack",
+      //   ],
+      //   description: (
+      //     <div>
+      //       <p>
+      //         Aplicacion Full Stack de registro y login de usuarios, tiene las
+      //         siguientes caracteristicas:
+      //       </p>
+      //       <ul className="project-features">
+      //         <li>Registro y login de usuarios</li>
+      //         <li>
+      //           Autenticación y autorización de usuarios usando jsonwebtoken
+      //         </li>
+      //         <li>Hashing de contraseñas</li>
+      //         <li>Almacenamiento de datos de usuario en una base de datos</li>
+      //         <li>
+      //           Redireccionamiento, dependiendo del estado de autenciación
+      //           actual del usuario
+      //         </li>
+      //         <li>Actualización de datos de usuario en la base de datos</li>
+      //       </ul>
+      //     </div>
+      //   ),
+      //   url: "https://bit.ly/3KPtWuh",
+      // },
       {
         name: "Full Stack PERN Tasks App",
         techList: [
@@ -304,7 +332,20 @@ const data = {
    */
   education: {
     title: "Educación",
-    list: education.list,
+    list: [
+      {
+        institution: "Universidad Técnica de Manabí",
+        description: "Ingeniería Mecánica",
+        date: {
+          start: "2018-09",
+          end: "2020-09",
+        },
+      },
+      {
+        institution: "freeCodeCamp",
+        description: "Desarrollo Web Full Stack",
+      },
+    ],
   },
 };
 

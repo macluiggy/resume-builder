@@ -32,7 +32,7 @@ const data = {
   summary: {
     title: "Resumen",
     text: `
-    Desarrollador web con +1 año de experiencia en programación y en el desarrollo de software. Me centro en aprender haciendo mediante la contruccion de proyectos, actualmente más de 20 proyectos construidos, siempre estoy buscando nuevas formas de mejorarme. Apasionado por el desarrollo de software y la tecnología.`,
+    Desarrollador Backend con +1 años de experiencia, entre los cuales he pasado de mis propios proyectos tecnológicos a trabajos de desarrollador en empresas tecnológicas con grandes equipos de trabajo. El stack de desarrollo que uso actualmente se centra en Node.js/Express para el Backend y como base de datos PostgresSQL o similar.`,
   },
 
   /**
@@ -55,7 +55,7 @@ const data = {
    * Additional skills
    */
   additionalSkills: {
-    title: "Habilidades adicionales",
+    title: "Habilidades",
     list: additionalSkills.list,
   },
 
@@ -81,6 +81,42 @@ const data = {
     ],
   },
 
+  /**
+   * Work experience
+   *
+   * Acceptable date format: `YYYY-MM`
+   */
+  workExperience: {
+    title: "Experiencia Laboral",
+    list: [
+      {
+        company: "Bitekso S.A.",
+        location: "Guayaquil, Ecuador",
+        date: {
+          start: "2022-04",
+          end: "Actualidad",
+        },
+        jobTitle: "Desarrollador Backend",
+        description: `
+          Trabajando en el equipo de desarrollo de Bitekso, he tenido la oportunidad de trabajar con tecnologías como Node.js, Express, PostgreSQL, entre otras para la creación de endpoints y servicios RESTful para la aplicación web de Bitekso.
+          Tambien tengo experiencia consumiendo los endpoints usando Angular`,
+      },
+      {
+        company: "Willay",
+        location: "Quito, Ecuador",
+        date: {
+          start: "2022-03",
+          end: "2022-04",
+        },
+        jobTitle: "Pasante de Desarrollo Web",
+        // escribe una descripcion para una pasantia de desarrollo web
+        description: `
+        Pasantia de 1 mes como desarrollador web usando python y django para el backend y angular para el frontend. Tambien se uso postgresql como base de datos
+        `,
+      },
+    ],
+  },
+
   projects: {
     title: "Proyectos",
     text: "Puedes encontrar todos mis proyectos y las tecnologías que he usado para construirlos aquí:",
@@ -99,189 +135,9 @@ const data = {
         description: `
         Aplicación de Red Social FullStack, esta app usa conceptos avanzados como autenticación y autorización con json web tokens (JWT) para proteger la app, por lo que solo los usuarios autenticados pueden acceder a ciertas partes de la app como crear un post, eliminar un post, darle me gusta un post, comentar en un post, etc. También puedes seguir a otros usuarios y ver su perfil y posts.`,
         url: "https://bit.ly/3H1m2uR",
-        /*
-        I've built a fullstack social media app, this was the most challenging app I've made until now, you can see it here:
-https://bit.ly/3H1m2uR
-To see its functionalities, please create and account or use an existing account to sign in with this credentials:
-email: pep@gmail.com
-password: 123456
-spanish:
-He construido una app de red social fullstack, esta app fue la más difícil que he hecho hasta ahora, puedes verla aquí:
-https://bit.ly/3H1m2uR
-Para ver sus funcionalidades, por favor crea una cuenta o usa una cuenta existente para iniciar sesión con estas credenciales:
-email: pepe@gmail.com
-password: 123456
-        */
       },
-      // {
-      //   name: "Full Stack User Registrarion App",
-      //   techList: [
-      //     "MonogoDB",
-      //     "Express",
-      //     "React",
-      //     "NextJS",
-      //     "Node.js",
-      //     "TypeScript",
-      //     "Webpack",
-      //   ],
-      //   description: (
-      //     <div>
-      //       <p>
-      //         Aplicacion Full Stack de registro y login de usuarios, tiene las
-      //         siguientes caracteristicas:
-      //       </p>
-      //       <ul className="project-features">
-      //         <li>Registro y login de usuarios</li>
-      //         <li>
-      //           Autenticación y autorización de usuarios usando jsonwebtoken
-      //         </li>
-      //         <li>Hashing de contraseñas</li>
-      //         <li>Almacenamiento de datos de usuario en una base de datos</li>
-      //         <li>
-      //           Redireccionamiento, dependiendo del estado de autenciación
-      //           actual del usuario
-      //         </li>
-      //         <li>Actualización de datos de usuario en la base de datos</li>
-      //       </ul>
-      //     </div>
-      //   ),
-      //   url: "https://bit.ly/3KPtWuh",
-      // },
-      {
-        name: "Full Stack PERN Tasks App",
-        techList: [
-          "PostgreSQL",
-          "Express",
-          "React",
-          "Node.js",
-          "TypeScript",
-          "Webpack",
-          "TDD: Mocha Chai",
-        ],
-        description: `Una aplicación fullstack de tareas. Esta aplicación es una simple lista de tareas que usa el stack PERN, donde el usuario puede crear tareas, editarlas y eliminarlas. El backend fue desplegado en Heroku y el frontend en Netlify.`,
-        url: "https://bit.ly/pern-tasks",
-      },
-      {
-        name: "Full Stack Movie Reviews App",
-        techList: ["MongoDB", "Express", "React", "Node.js"],
-        description: `Aplicacion full stack, construida con el stack MERN. Esta aplicacion trae peliculas de una base de datos Mongo, tambien puedes iniciar sesion y publicar una reseña, actualizar o eliminar las reseñas que hayas hecho en la base de datos.`,
-        url: "https://bit.ly/3CcvhXA",
-      },
-
-      /*
-      {
-        name: "Hacker Histories",
-        techList: [
-          "JavaScript",
-          "Hacker News API",
-          "React",
-          "TypeScript",
-          "Sass",
-          "Jest",
-        ],
-        description: `Este proyecto es una aplicacion que permite buscar un termino y mostrar los resultados de la busqueda. Esta aplicacion fue hecha con la API de Hacker News.`,
-        url: "https://bit.ly/hacker-news-searcher",
-      },
-      {
-        name: "Drum Machine App",
-        techList: ["React", "Redux", "HTML", "JavaScript", "Sass"],
-        description: `Esta aplicacon te permite escuchar algunos clips, puedes cambiar entre dos tambores, encender y apagar el tambor y subir y bajar el volumen del tambor. `,
-        url: "https://bit.ly/2ZdQXnB",
-      },
-      {
-        name: "Room homepage",
-        techList: [
-          "React",
-          "React useEffect & useState",
-          "HTML",
-          "JavaScript",
-          "Sass",
-        ],
-        description: ` Esta pagina de inicio fue de ayuda para probar mis habilidades de diseño. Tambien hay un slider que fue de ayuda para practicar React Hooks. `,
-        url: "https://bit.ly/3C8nH05",
-      },
-      {
-        name: 'Habit Tracker App',
-        techList: [
-          'React',
-          'React Query',
-          'React Router',
-          'Firebase',
-          'Material-UI',
-        ],
-        description: `
-          Habit Tracker is my final project for Harvard's CS50 course. It's 
-          built as MVP (minimal viable product) and its core functionality is to 
-          track user's habits.`,
-        url: 'https://habit-tracker.macieksitkowski.com/',
-      },
-      {
-        name: 'Pocket Globe App',
-        techList: ['React', 'D3.js', 'TopoJSON', 'Material-UI'],
-        description: `
-          The app uses D3.js and React to create a highly interactive and responsive 
-          globe. It connects to various APIs to get data about selected country.`,
-        url: 'https://sitek94.github.io/pocket-globe-app',
-      },
-      {
-        name: 'Pocket Globe App',
-        techList: ['React', 'D3.js', 'TopoJSON', 'Material-UI'],
-        description: `
-          The app uses D3.js and React to create a highly interactive and responsive 
-          globe. It connects to various APIs to get data about selected country.`,
-        url: 'https://sitek94.github.io/pocket-globe-app',
-      },*/
     ],
   },
-
-  /**
-   * Work experience
-   *
-   * Acceptable date format: `YYYY-MM`
-   */
-  /*workExperience: {
-    title: 'Work experience',
-    list: [
-      {
-        company: 'Dolphin Bar & Restaurant',
-        location: 'Mallorca, Spain',
-        date: {
-          start: '2018-05',
-          end: '2019-10',
-        },
-        jobTitle: 'Bartender/Waiter',
-        description: `
-          Working in one of the busiest restaurants on the island I became 
-          a better team player. Additionally it was a great opportunity to learn 
-          Spanish and further improve my English.`,
-      },
-      {
-        company: 'Clothes2Order',
-        location: 'Manchester, United Kingdom',
-        date: {
-          start: '2017-03',
-          end: '2018-05',
-        },
-        jobTitle: 'Customer Service Assistant',
-        description: `
-          Being a part of Customer Service team and talking over the phone 
-          with clients from all around the world helped me improve both my 
-          communication and collaboration skills.`,
-      },
-      {
-        company: 'Marks & Spencer',
-        location: 'Castle Donington, United Kingdom',
-        date: {
-          start: '2015-12',
-          end: '2017-01',
-        },
-        jobTitle: 'Production Operative',
-        description: `
-          Working for the first time abroad and overcoming the challenges along 
-          the road taught me how to quickly adapt to new environments.`,
-      },
-    ],
-  },*/
 
   /**
    * Certificates and courses
@@ -289,11 +145,11 @@ password: 123456
   certificates: {
     title: "Certificaciones",
     list: [
-      {
-        name: "Mejorando la de resolución de problemas haciendo katas en codewars",
-        provider: "Codewars",
-        url: "https://www.codewars.com/users/luiggy",
-      },
+      // {
+      //   name: "Mejorando la de resolución de problemas haciendo katas en codewars",
+      //   provider: "Codewars",
+      //   url: "https://www.codewars.com/users/luiggy",
+      // },
       {
         name: "Certificación de desarrollo web responsivo",
         provider: " freeCodeCamp",

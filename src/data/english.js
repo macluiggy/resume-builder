@@ -81,16 +81,21 @@ const data = {
    * Additional skills
    */
   additionalSkills: {
-    title: "Additional skills",
+    title: "Skills",
     list: [
+      { text: "Node.js, Express" },
+      { text: "PostgreSQL, MongoDB" },
+      { text: "TypeScript, JavaScript" },
+      { text: "Git, GitHub, npm" },
       { text: "Linux" },
-      { text: "TypeScript" },
-      { text: "Node.js, Express " },
+      { text: "React, JSX" },
+      { text: "Responsive Web Design" },
+      { text: "HTML5, CSS3" },
       { text: "NextJS" },
-      { text: "MongoDB, PostgreSQL" },
       { text: "Redux, TDD" },
-      /*{ text: 'OAuth, Firebase' }*/ { text: "Git, GitHub, npm" },
-      /*{ text: 'REST, GraphQL,' }*/ { text: "Sass, CSS-in-JS" },
+      { text: "Sass, CSS-in-JS" },
+      /*{ text: 'OAuth, Firebase' }*/ 
+      /*{ text: 'REST, GraphQL,' }*/ 
     ],
   },
 
@@ -134,37 +139,6 @@ const data = {
         description: `FullStack Social Media App, this app uses advanced concepts like authentication and authorization with json web tokens (JWT) to secure the app, so only authenticated users can access certain parts of the app like creating a post, deleting a post, liking a post, commenting on a post, etc. You can also follow other users and see their profile and posts.`,
         url: "https://bit.ly/3H1m2uR",
       },
-      // {
-      //   name: "Full Stack User Registrarion App",
-      //   techList: [
-      //     "MonogoDB",
-      //     "Express",
-      //     "React",
-      //     "NextJS",
-      //     "Node.js",
-      //     "TypeScript",
-      //     "Webpack",
-      //   ],
-      //   description: (
-      //     <div>
-      //       <p>
-      //         Full Stack user registration and login page, this app has the
-      //         following features:
-      //       </p>
-      //       <ul className="project-features">
-      //         <li>User registration and login</li>
-      //         <li>User authentication and authorization using jsonwebtoken</li>
-      //         <li>Password hashing</li>
-      //         <li>User data storage in a database</li>
-      //         <li>
-      //           Redirects depending on the user's current authentication status
-      //         </li>
-      //         <li>Updates user data in the database</li>
-      //       </ul>
-      //     </div>
-      //   ),
-      //   url: "https://bit.ly/3KPtWuh",
-      // },
       {
         name: "Full Stack PERN Tasks App",
         techList: [
@@ -189,75 +163,6 @@ const data = {
            have made in the database.`,
         url: "https://bit.ly/3CcvhXA",
       },
-      // {
-      //   name: "Hacker Histories",
-      //   techList: [
-      //     "JavaScript",
-      //     "Hacker News API",
-      //     "React",
-      //     "TypeScript",
-      //     "Sass",
-      //     "Jest",
-      //   ],
-      //   description: `
-      //   This is a project where the user can search for a term and it will show the search results, this was done with the Hacker News API`,
-      //   url: "https://bit.ly/hacker-news-searcher",
-      // },
-      // {
-      //   name: "Drum Machine App",
-      //   techList: ["React", "Redux", "HTML", "JavaScript", "Sass"],
-      //   description: `
-      //     This application allows you to listen to some clips, you can switch between
-      //     two drums, turn the drum on and off and raise and lower the volume of the
-      //     drum.`,
-      //   url: "https://bit.ly/2ZdQXnB",
-      // },
-      // {
-      //   name: "Room homepage",
-      //   techList: [
-      //     "React",
-      //     "React useEffect & useState",
-      //     "HTML",
-      //     "JavaScript",
-      //     "Sass",
-      //   ],
-      //   description: `
-      //     This homepage were helpful to test my layout skills. There's a slider that
-      //     also were helpful to practice React Hooks`,
-      //   url: "https://bit.ly/3C8nH05",
-      // },
-
-      /*{
-        name: 'Habit Tracker App',
-        techList: [
-          'React',
-          'React Query',
-          'React Router',
-          'Firebase',
-          'Material-UI',
-        ],
-        description: `
-          Habit Tracker is my final project for Harvard's CS50 course. It's 
-          built as MVP (minimal viable product) and its core functionality is to 
-          track user's habits.`,
-        url: 'https://habit-tracker.macieksitkowski.com/',
-      },
-      {
-        name: 'Pocket Globe App',
-        techList: ['React', 'D3.js', 'TopoJSON', 'Material-UI'],
-        description: `
-          The app uses D3.js and React to create a highly interactive and responsive 
-          globe. It connects to various APIs to get data about selected country.`,
-        url: 'https://sitek94.github.io/pocket-globe-app',
-      },
-      {
-        name: 'Pocket Globe App',
-        techList: ['React', 'D3.js', 'TopoJSON', 'Material-UI'],
-        description: `
-          The app uses D3.js and React to create a highly interactive and responsive 
-          globe. It connects to various APIs to get data about selected country.`,
-        url: 'https://sitek94.github.io/pocket-globe-app',
-      },*/
     ],
   },
 
@@ -266,49 +171,49 @@ const data = {
    *
    * Acceptable date format: `YYYY-MM`
    */
-  /*workExperience: {
-    title: 'Work experience',
+  workExperience: {
+    title: "Work experience",
     list: [
       {
-        company: 'Dolphin Bar & Restaurant',
-        location: 'Mallorca, Spain',
+        company: "Dolphin Bar & Restaurant",
+        location: "Mallorca, Spain",
         date: {
-          start: '2018-05',
-          end: '2019-10',
+          start: "2018-05",
+          end: "2019-10",
         },
-        jobTitle: 'Bartender/Waiter',
+        jobTitle: "Bartender/Waiter",
         description: `
           Working in one of the busiest restaurants on the island I became 
           a better team player. Additionally it was a great opportunity to learn 
           Spanish and further improve my English.`,
       },
       {
-        company: 'Clothes2Order',
-        location: 'Manchester, United Kingdom',
+        company: "Clothes2Order",
+        location: "Manchester, United Kingdom",
         date: {
-          start: '2017-03',
-          end: '2018-05',
+          start: "2017-03",
+          end: "2018-05",
         },
-        jobTitle: 'Customer Service Assistant',
+        jobTitle: "Customer Service Assistant",
         description: `
           Being a part of Customer Service team and talking over the phone 
           with clients from all around the world helped me improve both my 
           communication and collaboration skills.`,
       },
       {
-        company: 'Marks & Spencer',
-        location: 'Castle Donington, United Kingdom',
+        company: "Marks & Spencer",
+        location: "Castle Donington, United Kingdom",
         date: {
-          start: '2015-12',
-          end: '2017-01',
+          start: "2015-12",
+          end: "2017-01",
         },
-        jobTitle: 'Production Operative',
+        jobTitle: "Production Operative",
         description: `
           Working for the first time abroad and overcoming the challenges along 
           the road taught me how to quickly adapt to new environments.`,
       },
     ],
-  },*/
+  },
 
   /**
    * Certificates and courses

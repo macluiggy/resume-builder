@@ -3,7 +3,7 @@ import Link from './link';
 
 export default function Details({ data, defaultIcon = <FaQuestion /> }) {
   const { title, list } = data;
-
+console.log(data, 'aquiiiiiiiiiiiiiiiiiiii');
   return (
     <section className="details">
       <h3>{title}</h3>

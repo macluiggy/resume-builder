@@ -30,7 +30,7 @@ const data = {
   summary: {
     title: "Summary",
     text: `
-    Hard-working web developer with +1 year of programming experience and flair for creating elegant solutions in the least amount of time. I primary focus on learning by doing and building proyects, currently more than 20 projects built, I am always looking for new ways to improve myself. Passionate about software development and technology.`,
+    Backend Developer with +1 years of experience, among which I have gone from my own technological projects to developer jobs in technological companies with great teams of work. The development stack I currently use focuses on Node.js / Express for the Backend and as a database PostgresSQL or similar.`
   },
 
   /**
@@ -94,8 +94,8 @@ const data = {
       { text: "NextJS" },
       { text: "Redux, TDD" },
       { text: "Sass, CSS-in-JS" },
-      /*{ text: 'OAuth, Firebase' }*/ 
-      /*{ text: 'REST, GraphQL,' }*/ 
+      /*{ text: 'OAuth, Firebase' }*/
+      /*{ text: 'REST, GraphQL,' }*/
     ],
   },
 
@@ -118,6 +118,40 @@ const data = {
       { text: "Building habits", icon: <FaRegCalendarCheck /> },
       { text: "Reading", icon: <FaBook /> },
       { text: "Being active", icon: <FaRunning /> },
+    ],
+  },
+
+  /**
+   * Work experience
+   *
+   * Acceptable date format: `YYYY-MM`
+   */
+  workExperience: {
+    title: "Work Experience",
+    list: [
+      {
+        company: "Bitekso S.A.",
+        location: "Guayaquil, Ecuador",
+        date: {
+          start: "2022-04",
+          end: "Present",
+        },
+        jobTitle: "Backend Developer",
+          description: `
+          Working in the Bitekso development team, I have had the opportunity to work with technologies such as Node.js, Express, PostgreSQL, among others for the creation of endpoints and RESTful services for the Bitekso web application.
+          I also have experience consuming the endpoints using Angular`,
+      },
+      {
+        company: "Willay",
+        location: "Quito, Ecuador",
+        date: {
+          start: "2022-03",
+          end: "2022-04",
+        },
+        jobTitle: "Pasante de Desarrollo Web",
+        description: `
+        1 month internship as a web developer using python and django for the backend and angular for the frontend. PostgreSQL was also used as a database`
+      },
     ],
   },
 
@@ -162,55 +196,6 @@ const data = {
           a Mongo database, you can also login and post a review, update or delete the reviews you
            have made in the database.`,
         url: "https://bit.ly/3CcvhXA",
-      },
-    ],
-  },
-
-  /**
-   * Work experience
-   *
-   * Acceptable date format: `YYYY-MM`
-   */
-  workExperience: {
-    title: "Work experience",
-    list: [
-      {
-        company: "Dolphin Bar & Restaurant",
-        location: "Mallorca, Spain",
-        date: {
-          start: "2018-05",
-          end: "2019-10",
-        },
-        jobTitle: "Bartender/Waiter",
-        description: `
-          Working in one of the busiest restaurants on the island I became 
-          a better team player. Additionally it was a great opportunity to learn 
-          Spanish and further improve my English.`,
-      },
-      {
-        company: "Clothes2Order",
-        location: "Manchester, United Kingdom",
-        date: {
-          start: "2017-03",
-          end: "2018-05",
-        },
-        jobTitle: "Customer Service Assistant",
-        description: `
-          Being a part of Customer Service team and talking over the phone 
-          with clients from all around the world helped me improve both my 
-          communication and collaboration skills.`,
-      },
-      {
-        company: "Marks & Spencer",
-        location: "Castle Donington, United Kingdom",
-        date: {
-          start: "2015-12",
-          end: "2017-01",
-        },
-        jobTitle: "Production Operative",
-        description: `
-          Working for the first time abroad and overcoming the challenges along 
-          the road taught me how to quickly adapt to new environments.`,
       },
     ],
   },

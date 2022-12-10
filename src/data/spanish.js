@@ -16,8 +16,14 @@ import {
 import { BiMovie } from "react-icons/bi";
 import "./styles.css";
 import englishData from "./english";
-const { additionalSkills, keySkills, contact, fullName, education } =
-  englishData;
+const {
+  additionalSkills,
+  keySkills,
+  contact,
+  fullName,
+  education,
+  workExperience,
+} = englishData;
 const data = {
   /**
    * Full name
@@ -111,7 +117,7 @@ const data = {
         jobTitle: "Pasante de Desarrollo Web",
         // escribe una descripcion para una pasantia de desarrollo web
         description: `
-        Pasantia de 1 mes como desarrollador web usando python y django para el backend y angular para el frontend. Tambien se uso postgresql como base de datos
+        Pasantia como desarrollador web usando python y django para el backend y angular para el frontend. Tambien se uso postgresql como base de datos
         `,
       },
     ],

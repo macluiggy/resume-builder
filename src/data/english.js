@@ -30,7 +30,7 @@ const data = {
   summary: {
     title: "Summary",
     text: `
-    Backend Developer with +1 years of experience, among which I have gone from my own technological projects to developer jobs in technological companies with great teams of work. The development stack I currently use focuses on Node.js / Express for the Backend and as a database PostgresSQL or similar.`
+    Backend Developer with +1 years of experience, among which I have gone from my own technological projects to developer jobs in technological companies with great teams of work. The development stack I currently use focuses on Node.js / Express for the Backend and as a database PostgresSQL or similar.`,
   },
 
   /**
@@ -137,7 +137,7 @@ const data = {
           end: "Present",
         },
         jobTitle: "Backend Developer",
-          description: `
+        description: `
           Working in the Bitekso development team, I have had the opportunity to work with technologies such as Node.js, Express, PostgreSQL, among others for the creation of endpoints and RESTful services for the Bitekso web application.
           I also have experience consuming the endpoints using Angular`,
       },
@@ -150,7 +150,7 @@ const data = {
         },
         jobTitle: "Pasante de Desarrollo Web",
         description: `
-        1 month internship as a web developer using python and django for the backend and angular for the frontend. PostgreSQL was also used as a database`
+        An internship as a web developer using python and django for the backend and angular for the frontend. PostgreSQL was also used as a database`,
       },
     ],
   },
@@ -172,30 +172,6 @@ const data = {
         ],
         description: `FullStack Social Media App, this app uses advanced concepts like authentication and authorization with json web tokens (JWT) to secure the app, so only authenticated users can access certain parts of the app like creating a post, deleting a post, liking a post, commenting on a post, etc. You can also follow other users and see their profile and posts.`,
         url: "https://bit.ly/3H1m2uR",
-      },
-      {
-        name: "Full Stack PERN Tasks App",
-        techList: [
-          "PostgreSQL",
-          "Express",
-          "React",
-          "Node.js",
-          "TypeScript",
-          "Webpack",
-          "TDD: Mocha Chai",
-        ],
-        description: `
-        A fullstack PERN Stack Tasks App . This app is a simple todo list app that uses the PERN Stack, where the user can create tasks, edit them, and delete them. The backend is deployed on Heroku and the frontend is deployed on Netlify.`,
-        url: "https://bit.ly/pern-tasks",
-      },
-      {
-        name: "Full Stack Movie Reviews App",
-        techList: ["MongoDB", "Express", "React", "Node.js"],
-        description: `
-          Full Stack JavaScript application, made with the MERN stack. This app fetches movies from
-          a Mongo database, you can also login and post a review, update or delete the reviews you
-           have made in the database.`,
-        url: "https://bit.ly/3CcvhXA",
       },
     ],
   },

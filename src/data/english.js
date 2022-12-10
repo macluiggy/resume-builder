@@ -148,7 +148,7 @@ const data = {
           start: "2022-03",
           end: "2022-04",
         },
-        jobTitle: "Pasante de Desarrollo Web",
+        jobTitle: "Web Development Intern",
         description: `
         An internship as a web developer using python and django for the backend and angular for the frontend. PostgreSQL was also used as a database`,
       },

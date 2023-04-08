@@ -30,7 +30,7 @@ const data = {
   summary: {
     title: "Summary",
     text: `
-    Backend Developer with +1 years of experience, among which I have gone from my own technological projects to developer jobs in technological companies with great teams of work. The development stack I currently use focuses on Node.js / Express for the Backend and as a database PostgresSQL or similar.`,
+    I am a results-oriented software developer with experience in Node.js, Express, and PostgreSQL. I am passionate about learning and collaborating as a team to create innovative and scalable solutions. I am seeking challenging opportunities to apply my skills and experience in web application development.`,
   },
 
   /**
@@ -137,9 +137,32 @@ const data = {
           end: "Present",
         },
         jobTitle: "Backend Developer",
-        description: `
-          Working in the Bitekso development team, I have had the opportunity to work with technologies such as Node.js, Express, PostgreSQL, among others for the creation of endpoints and RESTful services for the Bitekso web application.
-          I also have experience consuming the endpoints using Angular`,
+        description: (
+          <div class="experience">
+            <ul>
+              <li>
+                - Assisted in implementing scalable and efficient backend
+                solutions using Node.js, Express, and MongoDB.
+              </li>
+              <li>
+                - Worked closely with the frontend development team to ensure
+                smooth integration between frontend and backend.
+              </li>
+              <li>
+                - Helped optimize the application's load speed and performance
+                using caching techniques and query optimization.
+              </li>
+            </ul>
+            <p>
+              During my time at the company, I had the opportunity to learn and
+              develop my Node.js programming skills, and improve my ability to
+              work in a team in an agile development environment. Additionally,
+              I had the opportunity to work on various exciting and challenging
+              projects that enhanced my experience in web application
+              development.
+            </p>
+          </div>
+        ),
       },
       {
         company: "Willay",
@@ -149,8 +172,9 @@ const data = {
           end: "2022-04",
         },
         jobTitle: "Web Development Intern",
-        description: `
-        An internship as a web developer using python and django for the backend and angular for the frontend. PostgreSQL was also used as a database`,
+        // description: `
+        // An internship as a web developer using python and django for the backend and angular for the frontend. PostgreSQL was also used as a database`,
+        description: `Internship as a web developer using Python and Django for the backend and Angular for the frontend. PostgreSQL was also used as the database.`,
       },
     ],
   },

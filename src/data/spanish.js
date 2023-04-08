@@ -112,7 +112,7 @@ const data = {
             <ul>
               <li>
                 - Ayudé en la implementación de soluciones de backend escalables
-                y eficientes utilizando Node.js, Express y MongoDB.
+                y eficientes utilizando Node.js, Express y PostgreSQL.
               </li>
               <li>
                 - Trabajé en estrecha colaboración con el equipo de desarrollo

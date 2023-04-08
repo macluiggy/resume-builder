@@ -142,7 +142,7 @@ const data = {
             <ul>
               <li>
                 - Assisted in implementing scalable and efficient backend
-                solutions using Node.js, Express, and MongoDB.
+                solutions using Node.js, Express, and PostgreSQL.
               </li>
               <li>
                 - Worked closely with the frontend development team to ensure
@@ -206,11 +206,11 @@ const data = {
   certificates: {
     title: "Certificates",
     list: [
-      {
-        name: "Improving my problem solving skills by doing katas in codewars.",
-        provider: "Codewars",
-        url: "https://bit.ly/3AHDyCP",
-      },
+      // {
+      //   name: "Improving my problem solving skills by doing katas in codewars.",
+      //   provider: "Codewars",
+      //   url: "https://bit.ly/3AHDyCP",
+      // },
       {
         name: "Responsive Web Design Certification",
         provider: "freeCodeCamp",

@@ -39,7 +39,7 @@ const data = {
     title: "Resumen",
     // text: `
     // Desarrollador Backend con +1 años de experiencia, entre los cuales he pasado de mis propios proyectos tecnológicos a trabajos de desarrollador en empresas tecnológicas con grandes equipos de trabajo. El stack de desarrollo que uso actualmente se centra en Node.js/Express para el Backend y como base de datos PostgresSQL o similar.`,
-    text: `Soy un desarrollador de software enfocado en resultados con experiencia en Node.js, Express y MongoDB. Me apasiona aprender y colaborar en equipo para crear soluciones innovadoras y escalables. Busco oportunidades desafiantes para aplicar mis habilidades y experiencia en el desarrollo de aplicaciones web y móviles.`,
+    text: `Soy un desarrollador de software enfocado en resultados con experiencia en Node.js, Express y PostgreSQL. Me apasiona aprender y colaborar en equipo para crear soluciones innovadoras y escalables. Busco oportunidades desafiantes para aplicar mis habilidades y experiencia en el desarrollo de aplicaciones web y móviles.`,
   },
 
   /**

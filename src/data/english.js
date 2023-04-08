@@ -83,17 +83,17 @@ const data = {
   additionalSkills: {
     title: "Skills",
     list: [
-      { text: "Node.js, Express" },
+      { text: "Node.js, Express, Sequelize" },
       { text: "PostgreSQL, MongoDB" },
       { text: "TypeScript, JavaScript" },
       { text: "Git, GitHub, npm" },
       { text: "Linux" },
       { text: "React, JSX" },
-      { text: "Responsive Web Design" },
+      // { text: "Responsive Web Design" },
       { text: "HTML5, CSS3" },
-      { text: "NextJS" },
-      { text: "Redux, TDD" },
-      { text: "Sass, CSS-in-JS" },
+      // { text: "NextJS" },
+      // { text: "Redux, TDD" },
+      // { text: "Sass, CSS-in-JS" },
       /*{ text: 'OAuth, Firebase' }*/
       /*{ text: 'REST, GraphQL,' }*/
     ],

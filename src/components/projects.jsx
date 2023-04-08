@@ -1,7 +1,8 @@
 import Link from "./link";
 
 export default function Projects({ data }) {
-  const { title, list, text } = data;
+  let { title, list, text } = data;
+  list = [];
 
   return (
     <section className="projects">

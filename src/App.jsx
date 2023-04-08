@@ -9,7 +9,7 @@ import Details from "./components/details.jsx";
 import FullName from "./components/full-name.jsx";
 import Summary from "./components/summary.jsx";
 import Projects from "./components/projects.jsx";
-import WorkExperience from './components/work-experience.jsx';
+import WorkExperience from "./components/work-experience.jsx";
 import Certificates from "./components/certificates.jsx";
 import Education from "./components/education.jsx";
 
@@ -19,7 +19,7 @@ export default function App() {
   const [language, setLanguage] = React.useState("english");
 
   const data = allData[language];
-console.log(data.contact, 'aquiiiiiiiiiiiiiiiiiiii');
+  console.log(data.contact, "aquiiiiiiiiiiiiiiiiiiii");
   return (
     <>
       <select onChange={(e) => setLanguage(e.target.value)}>
@@ -37,7 +37,12 @@ console.log(data.contact, 'aquiiiiiiiiiiiiiiiiiiii');
           <Details data={data.interests} />
         </div>
 
-        <div className="column right">
+        <div
+          className="column right"
+          style={{
+            fontSize: "12px",
+          }}
+        >
           <FullName text={data.fullName} />
           <Summary data={data.summary} />
           <WorkExperience data={data.workExperience} />

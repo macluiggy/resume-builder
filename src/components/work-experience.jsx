@@ -18,9 +18,8 @@ export default function WorkExperience({ data }) {
                 </h4>
 
                 <span className="date">
-                  {format(date.start)} - {
-                    isValidDate ? format(date.end) : date.end
-                  }
+                  {format(date.start)} -{" "}
+                  {isValidDate ? format(date.end) : date.end}
                 </span>
               </div>
 

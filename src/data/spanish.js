@@ -37,8 +37,9 @@ const data = {
    */
   summary: {
     title: "Resumen",
-    text: `
-    Desarrollador Backend con +1 años de experiencia, entre los cuales he pasado de mis propios proyectos tecnológicos a trabajos de desarrollador en empresas tecnológicas con grandes equipos de trabajo. El stack de desarrollo que uso actualmente se centra en Node.js/Express para el Backend y como base de datos PostgresSQL o similar.`,
+    // text: `
+    // Desarrollador Backend con +1 años de experiencia, entre los cuales he pasado de mis propios proyectos tecnológicos a trabajos de desarrollador en empresas tecnológicas con grandes equipos de trabajo. El stack de desarrollo que uso actualmente se centra en Node.js/Express para el Backend y como base de datos PostgresSQL o similar.`,
+    text: `Soy un desarrollador de software enfocado en resultados con experiencia en Node.js, Express y MongoDB. Me apasiona aprender y colaborar en equipo para crear soluciones innovadoras y escalables. Busco oportunidades desafiantes para aplicar mis habilidades y experiencia en el desarrollo de aplicaciones web y móviles.`,
   },
 
   /**
@@ -103,9 +104,37 @@ const data = {
           end: "Actualidad",
         },
         jobTitle: "Desarrollador Backend",
-        description: `
-          Trabajando en el equipo de desarrollo de Bitekso, he tenido la oportunidad de trabajar con tecnologías como Node.js, Express, PostgreSQL, entre otras para la creación de endpoints y servicios RESTful para la aplicación web de Bitekso.
-          Tambien tengo experiencia consumiendo los endpoints usando Angular`,
+        // description: `
+        //   Trabajando en el equipo de desarrollo de Bitekso, he tenido la oportunidad de trabajar con tecnologías como Node.js, Express, PostgreSQL, entre otras para la creación de endpoints y servicios RESTful para la aplicación web de Bitekso.
+        //   Tambien tengo experiencia consumiendo los endpoints usando Angular`,
+        description: (
+          <div class="experience">
+            <ul>
+              <li>
+                - Ayudé en la implementación de soluciones de backend escalables
+                y eficientes utilizando Node.js, Express y MongoDB.
+              </li>
+              <li>
+                - Trabajé en estrecha colaboración con el equipo de desarrollo
+                frontend para garantizar una integración sin problemas entre el
+                frontend y el backend.
+              </li>
+              <li>
+                - Ayudé en la optimización de la velocidad de carga y
+                rendimiento de la aplicación utilizando técnicas de caching y
+                optimización de consultas.
+              </li>
+            </ul>
+            <p>
+              Durante mi tiempo en la empresa, he tenido la oportunidad de
+              aprender y desarrollar mis habilidades de programación de Node.js
+              y he mejorado mi capacidad para trabajar en equipo en un entorno
+              de desarrollo ágil. Además, he tenido la oportunidad de trabajar
+              en varios proyectos emocionantes y desafiantes que han mejorado mi
+              experiencia en el desarrollo de aplicaciones web.
+            </p>
+          </div>
+        ),
       },
       {
         company: "Willay",

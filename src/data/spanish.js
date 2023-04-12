@@ -101,7 +101,7 @@ const data = {
         location: "Guayaquil, Ecuador",
         date: {
           start: "2022-04",
-          end: "Actualidad",
+          end: "2023-04",
         },
         jobTitle: "Desarrollador Backend",
         // description: `

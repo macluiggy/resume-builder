@@ -29,8 +29,9 @@ const data = {
    */
   summary: {
     title: "Summary",
-    text: `
-    I am a results-oriented software developer with experience in Node.js, Express, and PostgreSQL. I am passionate about learning and collaborating as a team to create innovative and scalable solutions. I am seeking challenging opportunities to apply my skills and experience in web application development.`,
+    // text: `
+    // I am a results-oriented software developer with experience in Node.js, Express, and PostgreSQL. I am passionate about learning and collaborating as a team to create innovative and scalable solutions. I am seeking challenging opportunities to apply my skills and experience in web application development.`,
+    text: `As a dedicated and skilled Software Developer, I bring a robust mix of technical expertise, innovative thinking, and effective problem-solving skills. My experience spans developing high-quality, scalable software solutions, primarily focusing on backend development, database management, and API integration. I have a proven track record of collaborating effectively with cross-functional teams to deliver projects that meet both technical standards and business objectives.`,
   },
 
   /**
@@ -83,14 +84,17 @@ const data = {
   additionalSkills: {
     title: "Skills",
     list: [
-      { text: "Node.js, Express, Sequelize" },
+      { text: "Node.js, Express" },
       { text: "PostgreSQL, MongoDB" },
       { text: "TypeScript, JavaScript" },
+      { text: "Docker" },
+      { text: "Testing" },
       { text: "Git, GitHub, npm" },
       { text: "Linux" },
-      { text: "React, JSX" },
+      // { text: "React, JSX" },
       // { text: "Responsive Web Design" },
-      { text: "HTML5, CSS3" },
+      // { text: "HTML5, CSS3" },
+      { text: "Python" },
       // { text: "NextJS" },
       // { text: "Redux, TDD" },
       // { text: "Sass, CSS-in-JS" },
@@ -130,6 +134,31 @@ const data = {
     title: "Work Experience",
     list: [
       {
+        company: "Imagine Apps",
+        location: "Bogota, Colombia",
+        date: {
+          start: "2023-04",
+          end: "present",
+        },
+        jobTitle: "Backend Developer",
+        description: (
+          <div class="experience">
+            <ul>
+              {/* <li>
+                - Developing backend solution for a 
+              </li> */}
+            </ul>
+            <p>
+              As a Backend Developer at Imagine Apps, I have been instrumental
+              in developing and maintaining the backend functionalities for
+              PayCloud, a cutting-edge financial technology application. My role
+              involves a blend of developing new features, optimizing existing
+              code, and ensuring the robustness and security of the application.
+            </p>
+          </div>
+        ),
+      },
+      {
         company: "Bitekso S.A.",
         location: "Guayaquil, Ecuador",
         date: {
@@ -139,7 +168,7 @@ const data = {
         jobTitle: "Backend Developer",
         description: (
           <div class="experience">
-            <ul>
+            {/* <ul>
               <li>
                 - Assisted in implementing scalable and efficient backend
                 solutions using Node.js, Express, and PostgreSQL.
@@ -152,7 +181,7 @@ const data = {
                 - Helped optimize the application's load speed and performance
                 using caching techniques and query optimization.
               </li>
-            </ul>
+            </ul> */}
             <p>
               During my time at the company, I had the opportunity to learn and
               develop my Node.js programming skills, and improve my ability to

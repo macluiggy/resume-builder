@@ -89,6 +89,7 @@ const data = {
       { text: "TypeScript, JavaScript" },
       { text: "Docker" },
       { text: "Testing" },
+      { text: "Github copilot, ChatGPT" },
       { text: "Git, GitHub, npm" },
       { text: "Linux" },
       // { text: "React, JSX" },

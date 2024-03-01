@@ -87,6 +87,7 @@ const data = {
       { text: "Node.js, Express" },
       { text: "PostgreSQL, MongoDB" },
       { text: "TypeScript, JavaScript" },
+      { text: "AWS" },
       { text: "Design Patterns" },
       { text: "Data Structures and Algorithms" },
       { text: "Docker" },

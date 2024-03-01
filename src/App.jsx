@@ -1,6 +1,6 @@
 import * as React from "react";
 import {
-  FaCheckSquare as FullCheckIcon,
+  // FaCheckSquare as FullCheckIcon,
   FaRegCheckSquare as CheckIcon,
   FaRegComment as CommentIcon,
 } from "react-icons/fa";

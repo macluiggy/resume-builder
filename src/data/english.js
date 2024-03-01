@@ -13,7 +13,7 @@ import {
   FaBook,
   FaRunning,
 } from "react-icons/fa";
-import { BiMovie } from "react-icons/bi";
+// import { BiMovie } from "react-icons/bi";
 import "./styles.css";
 
 const data = {

@@ -2,7 +2,7 @@ import Link from "./link";
 
 export default function Projects({ data }) {
   let { title, list, text } = data;
-  list = [];
+  // list = [];
 
   return (
     <section className="projects">
@@ -12,9 +12,9 @@ export default function Projects({ data }) {
           {text}{" "}
           <Link to={"https://bit.ly/all-the-projects"}>
             <h4>
-              <span style={{ color: "blue" }}>
+              {/* <span style={{ color: "blue" }}>
                 https://bit.ly/all-the-projects
-              </span>
+              </span> */}
             </h4>
           </Link>
         </p>

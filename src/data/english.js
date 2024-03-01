@@ -87,14 +87,16 @@ const data = {
       { text: "Node.js, Express" },
       { text: "PostgreSQL, MongoDB" },
       { text: "TypeScript, JavaScript" },
+      { text: "Design Patterns" },
+      { text: "Data Structures and Algorithms" },
       { text: "Docker" },
       { text: "Testing" },
-      { text: "Github copilot, ChatGPT" },
+      // { text: "Github copilot, ChatGPT" },
       { text: "Git, GitHub, npm" },
       { text: "Linux" },
       // { text: "React, JSX" },
       // { text: "Responsive Web Design" },
-      // { text: "HTML5, CSS3" },
+      { text: "HTML5, CSS3" },
       { text: "Python" },
       // { text: "NextJS" },
       // { text: "Redux, TDD" },
@@ -119,7 +121,7 @@ const data = {
     title: "Interests",
     list: [
       { text: "Learning new things", icon: <FaReact /> },
-      { text: "Watching series", icon: <BiMovie /> },
+      // { text: "Watching series", icon: <BiMovie /> },
       { text: "Building habits", icon: <FaRegCalendarCheck /> },
       { text: "Reading", icon: <FaBook /> },
       { text: "Being active", icon: <FaRunning /> },
@@ -139,7 +141,7 @@ const data = {
         location: "Bogota, Colombia",
         date: {
           start: "2023-04",
-          end: "present",
+          end: "2024-01",
         },
         jobTitle: "Backend Developer",
         description: (
@@ -185,7 +187,7 @@ const data = {
             </ul> */}
             <p>
               During my time at the company, I had the opportunity to learn and
-              develop my Node.js programming skills, and improve my ability to
+              develop my programming skills, and improve my ability to
               work in a team in an agile development environment. Additionally,
               I had the opportunity to work on various exciting and challenging
               projects that enhanced my experience in web application
@@ -211,21 +213,33 @@ const data = {
 
   projects: {
     title: "Projects",
-    text: "You can find all my projects and the technologies I've used to build them here:",
+    // text: "You can find all my projects and the technologies I've used to build them here:",
     list: [
+      // {
+      //   name: "Full Stack Social Media  App",
+      //   techList: [
+      //     "MonogoDB",
+      //     "Express",
+      //     "React",
+      //     "Node.js",
+      //     "TypeScript",
+      //     "Webpack",
+      //     "Material UI",
+      //   ],
+      //   description: `FullStack Social Media App, this app uses advanced concepts like authentication and authorization with json web tokens (JWT) to secure the app, so only authenticated users can access certain parts of the app like creating a post, deleting a post, liking a post, commenting on a post, etc. You can also follow other users and see their profile and posts.`,
+      //   url: "https://bit.ly/3H1m2uR",
+      // },
       {
-        name: "Full Stack Social Media  App",
+        name: "Excercise Tracker",
         techList: [
           "MonogoDB",
           "Express",
           "React",
           "Node.js",
           "TypeScript",
-          "Webpack",
-          "Material UI",
         ],
-        description: `FullStack Social Media App, this app uses advanced concepts like authentication and authorization with json web tokens (JWT) to secure the app, so only authenticated users can access certain parts of the app like creating a post, deleting a post, liking a post, commenting on a post, etc. You can also follow other users and see their profile and posts.`,
-        url: "https://bit.ly/3H1m2uR",
+        description: `A full stack app that allows users to create a new user, add new exercises, and see a list of all the exercises that have been added. The app uses a MongoDB database to store the data, and the backend is built with Node.js and Express. The frontend is built with React and uses TypeScript.`,
+        url: "https://boilerplate-project-exercisetracker-ten.vercel.app/",
       },
     ],
   },

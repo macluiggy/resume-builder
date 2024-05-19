@@ -87,7 +87,7 @@ const data = {
     list: [
       { text: "Node.js, Express" },
       { text: "PostgreSQL, MongoDB" },
-      { text: "TypeScript, JavaScript" },
+      { text: "TypeScript, JavaScript, Angular" },
       { text: "AWS" },
       { text: "Design Patterns" },
       { text: "Data Structures and Algorithms" },

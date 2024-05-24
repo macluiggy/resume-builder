@@ -32,7 +32,8 @@ const data = {
     // text: `
     // I am a results-oriented software developer with experience in Node.js, Express, and PostgreSQL. I am passionate about learning and collaborating as a team to create innovative and scalable solutions. I am seeking challenging opportunities to apply my skills and experience in web application development.`,
     // text: `As a dedicated and skilled Software Developer, I bring a robust mix of technical expertise, innovative thinking, and effective problem-solving skills. My experience spans developing high-quality, scalable software solutions, primarily focusing on backend development, database management, and API integration. I have a proven track record of collaborating effectively with cross-functional teams to deliver projects that meet both technical standards and business objectives.`,
-    text: `I mainly focus on design patterns instead of knowing every aspect of a technology, since it is more important to know about that, with the advanced of IA it wont be necessary to be a specialist in for example golang, if you already know another language but never have touched go, with AI it should be pretty straightforward to learn it, since a developer that focus on learning patterns rather than a specific technology will thrive more easily, so even if it is not me, i would strongly recommend that you hire someone that focus on patterns rather than a specific technology.`,
+    // text: `I mainly focus on design patterns instead of knowing every aspect of a technology, since it is more important to know about that, with the advanced of IA it wont be necessary to be a specialist in for example golang, if you already know another language but never have touched go, with AI it should be pretty straightforward to learn it, since a developer that focus on learning patterns rather than a specific technology will thrive more easily, so even if it is not me, i would strongly recommend that you hire someone that focus on patterns rather than a specific technology.`,
+    text: `Hi, I'm Luiggy, a software developer with a focus on backend development. I enjoy following best practices, such as design patterns and SOLID principles, to create efficient and maintainable systems that meet business requirements. I am always eager to learn new technologies and improve my skills.`,
   },
 
   /**
@@ -85,14 +86,14 @@ const data = {
   additionalSkills: {
     title: "Skills",
     list: [
-      { text: "Node.js, Express" },
+      { text: "Node.js, NestJS, Express" },
       { text: "PostgreSQL, MongoDB" },
       { text: "TypeScript, JavaScript, Angular" },
       { text: "AWS" },
-      { text: "Design Patterns" },
+      { text: "Design Patterns, SOLID principles" },
       { text: "Data Structures and Algorithms" },
       { text: "Docker" },
-      { text: "Testing" },
+      { text: "Testing, Vite, Jest" },
       // { text: "Github copilot, ChatGPT" },
       { text: "Git, GitHub, npm" },
       { text: "Linux" },

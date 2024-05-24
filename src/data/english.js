@@ -147,20 +147,43 @@ const data = {
           end: "2024-01",
         },
         jobTitle: "Backend Developer",
+        // description: (
+        //   <div class="experience">
+        //     <ul>
+        //       {/* <li>
+        //         - Developing backend solution for a
+        //       </li> */}
+        //     </ul>
+        //     <p>
+        //       As a Backend Developer at Imagine Apps, I have been instrumental
+        //       in developing and maintaining the backend functionalities for
+        //       PayCloud, a cutting-edge financial technology application. My role
+        //       involves a blend of developing new features, optimizing existing
+        //       code, and ensuring the robustness and security of the application.
+        //     </p>
+        //   </div>
+        // ),
         description: (
           <div class="experience">
             <ul>
-              {/* <li>
-                - Developing backend solution for a 
-              </li> */}
+              <li>
+                - Implemented a part of the stripe API to handle payments in the
+                backend.
+              </li>
+              <li>
+                - Used factory design pattern to create a factory that creates
+                different types of payment API's.
+              </li>
+              <li>
+                - Collaborating with the frontend team to ensure smooth
+                integration between frontend and backend.
+              </li>
+              {/* added tests */}
+              <li>
+                - Wrote tests for the backend to ensure the quality of the code.
+                (e2e, unit tests)
+              </li>
             </ul>
-            <p>
-              As a Backend Developer at Imagine Apps, I have been instrumental
-              in developing and maintaining the backend functionalities for
-              PayCloud, a cutting-edge financial technology application. My role
-              involves a blend of developing new features, optimizing existing
-              code, and ensuring the robustness and security of the application.
-            </p>
           </div>
         ),
       },
@@ -188,14 +211,38 @@ const data = {
                 using caching techniques and query optimization.
               </li>
             </ul> */}
-            <p>
+            {/* <p>
               During my time at the company, I had the opportunity to learn and
-              develop my programming skills, and improve my ability to
-              work in a team in an agile development environment. Additionally,
-              I had the opportunity to work on various exciting and challenging
-              projects that enhanced my experience in web application
-              development.
-            </p>
+              develop my programming skills, and improve my ability to work in a
+              team in an agile development environment. Additionally, I had the
+              opportunity to work on various exciting and challenging projects
+              that enhanced my experience in web application development.
+            </p> */}
+            <ul>
+              {/* ayde a creaar el backend para automatizar el proceso de obtencion de data de un predio a traves de mapas con los cuales se podia por ejemplo saber si se le cobraba impuesto si el geom del predio dependiendo de la distancia al servicio que se encontraba (pamiento, luz, etc)   */}
+              <li>
+                - Developed a backend solution to automate the process of
+                obtaining data from a property through maps, which could be used
+                to determine if a property should be taxed based on its distance
+                from a service (water, electricity, etc).
+              </li>
+              {/* 
+              creacion de pdfs con la informacion de los predios, se podia seleccionar un predio y se generaba un pdf con la informacion del predio, se mostraba informacion como el propietario, el area, el valor del predio, el mapa del predio, etc
+              */}
+              <li>
+                - Implemented features to generate PDFs with information about
+                properties. Users could select a property and generate a PDF
+                with information such as the owner, area, property value,
+                property map, etc.
+              </li>
+              {/* 
+              migraciondes de consulta directas con sp (stored procedures) a consultas con sequelize
+              */}
+              <li>
+                - Migrated direct queries with stored procedures to queries with
+                Sequelize ORM.
+              </li>
+            </ul>
           </div>
         ),
       },
@@ -234,13 +281,7 @@ const data = {
       // },
       {
         name: "Excercise Tracker",
-        techList: [
-          "MonogoDB",
-          "Express",
-          "React",
-          "Node.js",
-          "TypeScript",
-        ],
+        techList: ["MonogoDB", "Express", "React", "Node.js", "TypeScript"],
         description: `A full stack app that allows users to create a new user, add new exercises, and see a list of all the exercises that have been added. The app uses a MongoDB database to store the data, and the backend is built with Node.js and Express. The frontend is built with React and uses TypeScript.`,
         url: "https://boilerplate-project-exercisetracker-ten.vercel.app/",
       },

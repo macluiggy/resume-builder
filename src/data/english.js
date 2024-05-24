@@ -279,11 +279,21 @@ const data = {
       //   description: `FullStack Social Media App, this app uses advanced concepts like authentication and authorization with json web tokens (JWT) to secure the app, so only authenticated users can access certain parts of the app like creating a post, deleting a post, liking a post, commenting on a post, etc. You can also follow other users and see their profile and posts.`,
       //   url: "https://bit.ly/3H1m2uR",
       // },
+      // {
+      //   name: "Excercise Tracker",
+      //   techList: ["MonogoDB", "Express", "React", "Node.js", "TypeScript"],
+      //   description: `A full stack app that allows users to create a new user, add new exercises, and see a list of all the exercises that have been added. The app uses a MongoDB database to store the data, and the backend is built with Node.js and Express. The frontend is built with React and uses TypeScript.`,
+      //   url: "https://boilerplate-project-exercisetracker-ten.vercel.app/",
+      // },
       {
-        name: "Excercise Tracker",
-        techList: ["MonogoDB", "Express", "React", "Node.js", "TypeScript"],
-        description: `A full stack app that allows users to create a new user, add new exercises, and see a list of all the exercises that have been added. The app uses a MongoDB database to store the data, and the backend is built with Node.js and Express. The frontend is built with React and uses TypeScript.`,
-        url: "https://boilerplate-project-exercisetracker-ten.vercel.app/",
+        name: "Full Stack Social Media App",
+        techList: ["PostgreSQL", "NestJS", "Angular", "TypeScript", "Docker", "AWS", "Vitest", ],
+        /**
+         * red social full stack que permite a los usuarios crear una cuenta, hacer publicaciones, seguir a otros usuarios, ver el perfil de otros usuarios, etc. Para la autenticación se utilizó JWT y para la autorización se utilizó un middleware que verifica si el usuario tiene permisos para realizar ciertas acciones.
+         * Cuenta con un backend desarrollado con NestJS y una base de datos PostgreSQL. El frontend está desarrollado con Angular y utiliza TypeScript. La aplicación se despliega utilizando Docker y se prueban las funcionalidades con Vitest.
+         */
+        description: `A full stack social media app that allows users to create an account, make posts, follow other users, view other users' profiles, etc. JWT was used for authentication and a middleware was used for authorization to verify if the user has permissions to perform certain actions. The backend is developed with NestJS and a PostgreSQL database. The frontend is developed with Angular and uses TypeScript. The application is deployed using Docker and the functionalities are tested with Vitest.`,
+        url: "https://staging-social-media.pages.dev/home",
       },
     ],
   },

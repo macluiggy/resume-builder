@@ -39,7 +39,8 @@ const data = {
     title: "Resumen",
     // text: `
     // Desarrollador Backend con +1 años de experiencia, entre los cuales he pasado de mis propios proyectos tecnológicos a trabajos de desarrollador en empresas tecnológicas con grandes equipos de trabajo. El stack de desarrollo que uso actualmente se centra en Node.js/Express para el Backend y como base de datos PostgresSQL o similar.`,
-    text: `Soy un desarrollador de software enfocado en resultados con experiencia en Node.js, Express y PostgreSQL. Me apasiona aprender y colaborar en equipo para crear soluciones innovadoras y escalables. Busco oportunidades desafiantes para aplicar mis habilidades y experiencia en el desarrollo de aplicaciones web.`,
+    // text: `Soy un desarrollador de software enfocado en resultados con experiencia en Node.js, Express y PostgreSQL. Me apasiona aprender y colaborar en equipo para crear soluciones innovadoras y escalables. Busco oportunidades desafiantes para aplicar mis habilidades y experiencia en el desarrollo de aplicaciones web.`,
+    text: `Hola, soy Luiggy, un desarrollador de software con un enfoque en el desarrollo de backend. Disfruto siguiendo las mejores prácticas, como los patrones de diseño y los principios SOLID, para crear sistemas eficientes y mantenibles que cumplan con los requisitos comerciales. Siempre estoy ansioso por aprender nuevas tecnologías y mejorar mis habilidades.`,
   },
 
   /**
@@ -97,6 +98,53 @@ const data = {
     title: "Experiencia Laboral",
     list: [
       {
+        company: "Imagine Apps",
+        location: "Bogota, Colombia",
+        date: {
+          start: "2023-04",
+          end: "2024-01",
+        },
+        jobTitle: "Backend Developer",
+        // description: (
+        //   <div class="experience">
+        //     <ul>
+        //       {/* <li>
+        //         - Developing backend solution for a
+        //       </li> */}
+        //     </ul>
+        //     <p>
+        //       As a Backend Developer at Imagine Apps, I have been instrumental
+        //       in developing and maintaining the backend functionalities for
+        //       PayCloud, a cutting-edge financial technology application. My role
+        //       involves a blend of developing new features, optimizing existing
+        //       code, and ensuring the robustness and security of the application.
+        //     </p>
+        //   </div>
+        // ),
+        description: (
+          <div class="experience">
+            <ul>
+              <li>
+                - Implementé una parte de la API de Stripe para manejar los
+                pagos en el backend.
+              </li>
+              <li>
+                - Utilicé el patrón de diseño de fábrica para crear una fábrica
+                que genera diferentes tipos de API's de pago.
+              </li>
+              <li>
+                - Colaboré con el equipo de frontend para asegurar una
+                integración suave entre el frontend y el backend.
+              </li>
+              <li>
+                - Escribí pruebas para el backend para asegurar la calidad del
+                código. (pruebas e2e, pruebas unitarias)
+              </li>
+            </ul>
+          </div>
+        ),
+      },
+      {
         company: "Bitekso S.A.",
         location: "Guayaquil, Ecuador",
         date: {
@@ -111,28 +159,23 @@ const data = {
           <div class="experience">
             <ul>
               <li>
-                - Ayudé en la implementación de soluciones de backend escalables
-                y eficientes utilizando Node.js, Express y PostgreSQL.
+                - Desarrollé una solución de backend para automatizar el proceso
+                de obtención de datos de una propiedad a través de mapas, que se
+                podría utilizar para determinar si una propiedad debería ser
+                cobrada de impuestos en función de su distancia a un servicio (agua,
+                electricidad, etc).
               </li>
               <li>
-                - Trabajé en estrecha colaboración con el equipo de desarrollo
-                frontend para garantizar una integración sin problemas entre el
-                frontend y el backend.
+                - Implementé características para generar PDFs con información
+                sobre propiedades. Los usuarios podían seleccionar una propiedad
+                y generar un PDF con información como el propietario, el área,
+                el valor de la propiedad, el mapa de la propiedad, etc.
               </li>
               <li>
-                - Ayudé en la optimización de la velocidad de carga y
-                rendimiento de la aplicación utilizando técnicas de caching y
-                optimización de consultas.
+                - Migré consultas directas con procedimientos almacenados a
+                consultas con Sequelize ORM.
               </li>
             </ul>
-            <p>
-              Durante mi tiempo en la empresa, he tenido la oportunidad de
-              aprender y desarrollar mis habilidades de programación de Node.js
-              y he mejorado mi capacidad para trabajar en equipo en un entorno
-              de desarrollo ágil. Además, he tenido la oportunidad de trabajar
-              en varios proyectos emocionantes y desafiantes que han mejorado mi
-              experiencia en el desarrollo de aplicaciones web.
-            </p>
           </div>
         ),
       },
@@ -154,22 +197,36 @@ const data = {
 
   projects: {
     title: "Proyectos",
-    text: "Puedes encontrar todos mis proyectos y las tecnologías que he usado para construirlos aquí:",
+    // text: "Puedes encontrar todos mis proyectos y las tecnologías que he usado para construirlos aquí:",
     list: [
+      // {
+      //   name: "Red Social FullStack",
+      //   techList: [
+      //     "MonogoDB",
+      //     "Express",
+      //     "React",
+      //     "Node.js",
+      //     "TypeScript",
+      //     "Webpack",
+      //     "Material UI",
+      //   ],
+      //   description: `
+      //   Aplicación de Red Social FullStack, esta app usa conceptos avanzados como autenticación y autorización con json web tokens (JWT) para proteger la app, por lo que solo los usuarios autenticados pueden acceder a ciertas partes de la app como crear un post, eliminar un post, darle me gusta un post, comentar en un post, etc. También puedes seguir a otros usuarios y ver su perfil y posts.`,
+      //   url: "https://bit.ly/3H1m2uR",
+      // },
       {
-        name: "Red Social FullStack",
+        name: "Aplicación de Red Social Full Stack",
         techList: [
-          "MonogoDB",
-          "Express",
-          "React",
-          "Node.js",
+          "PostgreSQL",
+          "NestJS",
+          "Angular",
           "TypeScript",
-          "Webpack",
-          "Material UI",
+          "Docker",
+          "AWS",
+          "Vitest",
         ],
-        description: `
-        Aplicación de Red Social FullStack, esta app usa conceptos avanzados como autenticación y autorización con json web tokens (JWT) para proteger la app, por lo que solo los usuarios autenticados pueden acceder a ciertas partes de la app como crear un post, eliminar un post, darle me gusta un post, comentar en un post, etc. También puedes seguir a otros usuarios y ver su perfil y posts.`,
-        url: "https://bit.ly/3H1m2uR",
+        description: `Una aplicación de red social full stack que permite a los usuarios crear una cuenta, hacer publicaciones, seguir a otros usuarios, ver los perfiles de otros usuarios, etc. Se utilizó JWT para la autenticación y un middleware para la autorización para verificar si el usuario tiene permisos para realizar ciertas acciones.`,
+        url: "https://staging-social-media.pages.dev/home",
       },
     ],
   },

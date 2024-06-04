@@ -12,6 +12,8 @@ import {
   FaRegCalendarCheck,
   FaBook,
   FaRunning,
+  FaLinkedin,
+  FaLinkedinIn
 } from "react-icons/fa";
 // import { BiMovie } from "react-icons/bi";
 import "./styles.css";
@@ -55,6 +57,11 @@ const data = {
       {
         text: "ferrinluiggy@gmail.com",
         icon: <FaEnvelope />,
+      },
+      {
+        text: "linkedin.com/in/macluiggy/",
+        url: "https://www.linkedin.com/in/macluiggy/",
+        icon: <FaLinkedin />,
       },
       {
         text: "+593 985 518 903",
@@ -287,7 +294,15 @@ const data = {
       // },
       {
         name: "Full Stack Social Media App",
-        techList: ["PostgreSQL", "NestJS", "Angular", "TypeScript", "Docker", "AWS", "Vitest", ],
+        techList: [
+          "PostgreSQL",
+          "NestJS",
+          "Angular",
+          "TypeScript",
+          "Docker",
+          "AWS",
+          "Vitest",
+        ],
         /**
          * red social full stack que permite a los usuarios crear una cuenta, hacer publicaciones, seguir a otros usuarios, ver el perfil de otros usuarios, etc. Para la autenticación se utilizó JWT y para la autorización se utilizó un middleware que verifica si el usuario tiene permisos para realizar ciertas acciones.
          * Cuenta con un backend desarrollado con NestJS y una base de datos PostgreSQL. El frontend está desarrollado con Angular y utiliza TypeScript. La aplicación se despliega utilizando Docker y se prueban las funcionalidades con Vitest.

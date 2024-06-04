@@ -225,7 +225,7 @@ const data = {
           "AWS",
           "Vitest",
         ],
-        description: `Una aplicación de red social full stack que permite a los usuarios crear una cuenta, hacer publicaciones, seguir a otros usuarios, ver los perfiles de otros usuarios, etc. Se utilizó JWT para la autenticación y un middleware para la autorización para verificar si el usuario tiene permisos para realizar ciertas acciones.`,
+        description: `Una aplicación de red social full stack que permite a los usuarios crear una cuenta, hacer publicaciones, seguir a otros usuarios, ver los perfiles de otros usuarios, etc.`,
         url: "https://staging-social-media.pages.dev/home",
       },
     ],
